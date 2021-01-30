@@ -28,4 +28,9 @@ You can solve your questions regarding KoNLPy through the following channels.
 ---------------------
 - You can suggest, solve or discuss ways to solve issues or improve the code on the `github issues `github issues <https://github.com/konlpy/konlpy/issues>`_ 
 
-- Please consider the following code standards
+- Please consider the following code standards when writing code.
+    1. Use 4 spaces instead of tabs.
+    2. For features that are not specifically mentioned in this document write specifications and include references to parts of the code (Also please update this document so other people can follow the same standard)
+    3. Commit messages should be as descriptive as possible.
+
+- After completing your code make sure it passes all tests
