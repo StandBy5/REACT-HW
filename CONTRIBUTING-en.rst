@@ -33,4 +33,18 @@ You can solve your questions regarding KoNLPy through the following channels.
     2. For features that are not specifically mentioned in this document write specifications and include references to parts of the code (Also please update this document so other people can follow the same standard)
     3. Commit messages should be as descriptive as possible.
 
-- After completing your code make sure it passes all tests
+- After completing your code make sure it passes all tests.
+    1. If you modified the java code::
+
+         # Install `Apache Ant <http://ant.apache.org/manual/install.html>`_
+        make java
+
+    1. If you only modified one line of code::
+
+        pip install -r requirements-dev.txt
+        pip3 install -r requirements-dev.txt
+        make build      # create tar.gz
+        make check      # check code styles
+        make testall    # run tests
+
+- Please consider the following before
