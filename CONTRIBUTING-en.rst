@@ -47,4 +47,14 @@ You can solve your questions regarding KoNLPy through the following channels.
         make check      # check code styles
         make testall    # run tests
 
-- Please consider the following before
+- Please consider the following before sending a Pull Request.
+    1. Once the PR is submitted, the code is subject to KoNLPy's open source license.
+    2. If requested to change part of the code after sending the PR, modify the commit with ``git commit --amend`` .
+
+
+
+4. Editing documents
+----------------
+
+- Spelling correction: If you find a typo or a mispelled word and want to request a correction, you can edit the document yourself.
+-
