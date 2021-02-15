@@ -61,4 +61,17 @@ You can solve your questions regarding KoNLPy through the following channels.
 - Translation: KoNLP's documents are in english and korean. Therefore, you can correct awkward or incorrect translations.
 
 
-> Note: If you are an existing user, plea
+> Note: If you are an existing user, please download and modify the code to send the PR so you can contribute accurately. If the process is to complicated or difficult and you don't want to recieve attribution, you can send an email to konlpy@googlegroups.com 
+
+
+
+Setup docs
+''''''''''
+
+1. Fork and clone KoNLPy::
+
+    git clone git@github.com:[your_github_id]/konlpy.git
+
+2. Include the following lines in your `~/.bashrc`::
+
+    export LC_AL
