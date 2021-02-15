@@ -57,4 +57,8 @@ You can solve your questions regarding KoNLPy through the following channels.
 ----------------
 
 - Spelling correction: If you find a typo or a mispelled word and want to request a correction, you can edit the document yourself.
--
+- Adding content: You can add descriptions to content that you don't understand well or that lack a proper explanation. KoNLP is oriented towards documentation with examples. Please share any examples you would like to add to the documentation.
+- Translation: KoNLP's documents are in english and korean. Therefore, you can correct awkward or incorrect translations.
+
+
+> Note: If you are an existing user, plea
