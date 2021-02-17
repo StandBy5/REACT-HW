@@ -74,4 +74,30 @@ Setup docs
 
 2. Include the following lines in your `~/.bashrc`::
 
-    export LC_AL
+    export LC_ALL=en_US.UTF-8
+    export LANG=en_US.UTF-8
+
+3. Install dependencies::
+
+    $ make init_i18n
+
+
+Modify and push docs
+''''''''''''''''''''
+
+1. Modify a document file::
+
+    $ cd docs             # Move to the `docs` folder
+    $ vi some_file.rst    # Modify corresponding `*.rst` files
+
+2. Build docs::
+
+    $ make html
+
+3. Extract translation phrases::
+
+    $ make extract_i18n
+
+4. Modify translations::
+
+    
