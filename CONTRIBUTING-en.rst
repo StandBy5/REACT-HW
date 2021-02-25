@@ -100,4 +100,19 @@ Modify and push docs
 
 4. Modify translations::
 
-    
+    $ cd locale/ko/LC_MESSAGES
+    $ vi some_file.po
+
+5. Update translations::
+
+    $ make update_i18n
+
+6. Commit and push your repository
+
+7. Send a pull request
+
+
+5. Add test
+------------------
+
+- Add test cases that haven't been covered yet to test the full extent of your code.
