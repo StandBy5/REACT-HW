@@ -28,4 +28,21 @@ check:
 	# E501: Line too long
 	# E701: Multiple statements on one line(colon)
 	pep8 --ignore=E501,E402 konlpy/*.py
-	pep8 --ignore=E501,E701,E126 konlp
+	pep8 --ignore=E501,E701,E126 konlpy/*/*.py
+
+testpypi:
+	python setup.py sdist bdist_wheel
+	twine upload --repository testpypi dist/*
+	# Execute below manually
+	# 	cd /tmp
+	# 	virtualenv venv
+	# 	source venv/bin/activate
+	# 	pip install -i https://testpypi.python.org/pypi konlpy
+	# 	deactivate
+	# 	virtualenv-3.4 venv3
+	# 	source venv3/bin/activate
+	# 	pip3 install -i https://testpypi.python.org/pypi konlpy
+	# 	deactivate
+
+pypi:
+	python setup.py sdist bdist_w
