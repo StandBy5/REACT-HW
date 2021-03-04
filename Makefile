@@ -45,4 +45,24 @@ testpypi:
 	# 	deactivate
 
 pypi:
-	python setup.py sdist bdist_w
+	python setup.py sdist bdist_wheel
+	twine upload --repository pypi dist/*
+
+java:
+	ant clean compile
+
+jcc:
+	python -m jcc \
+	    --jar konlpy/java/jhannanum-0.8.4.jar \
+	    --classpath konlpy/java/bin/kr/lucypark/jhannanum \
+	    --python pyhannanum \
+	    --version 0.1.0 \
+	    --build --install
+
+testall:
+	python -m pytest --cov=konlpy test/
+	python3 -m pytest --cov=konlpy test/
+
+init_i18n:
+	pip install mock sphinx sphinx-intl
+	git submod
