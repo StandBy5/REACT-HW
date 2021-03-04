@@ -9,4 +9,14 @@ KoNLPy
     :target: https://travis-ci.org/konlpy/konlpy
     :alt: Build Status
 
-.. image:: https://readthedocs
+.. image:: https://readthedocs.org/projects/konlpy/badge/?version=latest
+    :target: https://readthedocs.org/projects/konlpy/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://img.shields.io/coveralls/konlpy/konlpy.svg
+    :target: https://coveralls.io/r/konlpy/konlpy
+    :alt: Coverage Status
+
+.. image:: https://img.shields.io/pypi/status/konlpy.svg
+    :target: https://pypi.python.org/pypi/konlpy/
+    :a
