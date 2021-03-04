@@ -65,4 +65,27 @@ testall:
 
 init_i18n:
 	pip install mock sphinx sphinx-intl
-	git submod
+	git submodule init
+	git submodule update
+
+show_docs:
+	cd docs\
+		&& make html \
+		&& cd _build/html \
+		&& python -m http.server
+
+show_docs_ko:
+	cd docs\
+		&& make -e SPHINXOPTS="-D language='ko'" html \
+		&& cd _build/html \
+		&& python -m http.server
+
+extract_i18n:
+	cd docs\
+	    && make gettext\
+	    && sphinx-intl update -p _build/locale -l ko
+
+update_i18n:
+	cd docs\
+	    && sphinx-intl build\
+	    && make -e SP
