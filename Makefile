@@ -88,4 +88,4 @@ extract_i18n:
 update_i18n:
 	cd docs\
 	    && sphinx-intl build\
-	    && make -e SP
+	    && make -e SPHINXOPTS="-D language='ko'" html
