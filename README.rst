@@ -19,4 +19,21 @@ KoNLPy
 
 .. image:: https://img.shields.io/pypi/status/konlpy.svg
     :target: https://pypi.python.org/pypi/konlpy/
-    :a
+    :alt: Development Status
+
+.. image:: https://img.shields.io/badge/licence-GPL-blue.svg
+    :target: http://www.gnu.org/copyleft/gpl.html
+    :alt: License
+
+
+한국어 자연어처리를 할 수 있는 파이썬 패키지입니다.
+
+KoNLPy is a Python package for natural language processing of the Korean language. 
+
+- English documentation: http://konlpy.org/en/latest
+- 한국어 문서: http://konlpy.org/ko/latest
+
+Links
+------
+
+- KoNLPy was rew
