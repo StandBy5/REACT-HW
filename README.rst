@@ -36,4 +36,4 @@ KoNLPy is a Python package for natural language processing of the Korean languag
 Links
 ------
 
-- KoNLPy was rew
+- KoNLPy was rewrapped using Py4J by `Steven Han <https://github.com/nazgul33>`_: https://github.com/nazgul33/konlpy
