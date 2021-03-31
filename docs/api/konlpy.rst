@@ -34,4 +34,9 @@ Subpackages
     :show-inheritance:
 
 :mod:`utils` Module
---------------
+-------------------
+
+.. automodule:: konlpy.utils
+    :members:
+    :undoc-members:
+    :show-inheritance:
