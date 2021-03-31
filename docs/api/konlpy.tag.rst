@@ -14,4 +14,25 @@ tag Package
     :undoc-members:
     :show-inheritance:
 
-:class:`Kkma`
+:class:`Kkma` Class
+-------------------
+
+.. automodule:: konlpy.tag._kkma
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+:class:`Komoran` Class
+----------------------
+
+.. automodule:: konlpy.tag._komoran
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+:class:`Mecab` Class
+--------------------
+
+.. warning:: ``Mecab()`` is not supported on ``Windows``.
+
+.. automodule:: konlpy.tag._me
