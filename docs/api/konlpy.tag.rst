@@ -35,4 +35,23 @@ tag Package
 
 .. warning:: ``Mecab()`` is not supported on ``Windows``.
 
-.. automodule:: konlpy.tag._me
+.. automodule:: konlpy.tag._mecab
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+:class:`Okt` Class
+----------------------
+
+.. warning:: ``Twitter()`` has changed to ``Okt()`` since v0.5.0.
+
+.. automodule:: konlpy.tag._okt
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+.. seealso::
+    `Korean POS tags comparison chart <https://docs.google.com/spreadsheets/d/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0>`_
+
+        Compare POS tags between several 
