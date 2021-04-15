@@ -54,4 +54,4 @@ tag Package
 .. seealso::
     `Korean POS tags comparison chart <https://docs.google.com/spreadsheets/d/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0>`_
 
-        Compare POS tags between several 
+        Compare POS tags between several Korean analytic projects. (In Korean)
