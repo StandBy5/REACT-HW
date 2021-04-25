@@ -20,4 +20,10 @@ print("# Print whole tree")
 print(chunks.pprint())
 
 print("\n# Print noun phrases only")
-for subtree in chunks.subt
+for subtree in chunks.subtrees():
+    if subtree.label()=='NP':
+        print(' '.join((e[0] for e in list(subtree))))
+        print(subtree.pprint())
+
+# Display the chunk tree
+chunks.draw()
