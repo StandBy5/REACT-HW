@@ -9,4 +9,16 @@ Here we demonstrate a way to easily chunk a sentence, and find noun, verb and ad
     :language: python
 
 According to the chunk grammer defined above, we have three rules to extracted phrases from our sentence.
-First, we have a rule to extract noun phrases (NP), where our chunker finds a serial of nouns, followed with an optional Suffix. (Note that these rules can be modified f
+First, we have a rule to extract noun phrases (NP), where our chunker finds a serial of nouns, followed with an optional Suffix. (Note that these rules can be modified for your purpose, and that they should differ for each morphological analyzer.)
+Then we have two more rules, each defining verb phrases (VP) and adjective phrases (AP).
+
+The result is a tree, which we can print on the console, or display graphically as follows.
+
+- Console::
+  
+
+    # Print whole tree
+    (S
+      (NP 만/Noun 6/Number 세/Noun 이하/Noun)
+      의/Josa
+      (NP 초등학교/Noun 취학/Noun
