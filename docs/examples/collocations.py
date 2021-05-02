@@ -25,4 +25,5 @@ pprint(finder.nbest(measures.pmi, 10))
 
 print('\nCollocations among tags:')
 tags = [t for w, t in tagged_words]
-finder = collocations.BigramCollocationFinder.from_words(tags
+finder = collocations.BigramCollocationFinder.from_words(tags)
+pprint(finder.nbest(measures.pmi, 5))
