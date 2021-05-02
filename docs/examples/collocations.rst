@@ -30,4 +30,13 @@ In order to find trigram collocations, replace `BigramAssocMeasures` with `Trigr
      (누구, 든지),
      (회계, 연도),
      (지체, 없이),
+     (평화적, 통일),
+     (형사, 피고인),
+     (지방, 자치)]
     
+    Collocations among tags:
+    [(XR, XSA),
+     (JKC, VCN),
+     (VCN, ECD),
+     (ECD, VX),
+     (ECD, VXV)]
