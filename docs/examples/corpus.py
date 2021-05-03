@@ -21,4 +21,4 @@ for doc in docs:
 
 # draw heap
 plt.plot(global_unique_cnt)
-plt.savefig('heap.p
+plt.savefig('heap.png')
