@@ -21,4 +21,11 @@ If our cat knew that, he would have typed something like this::
 
     다이는가 고다하에지 요그이데습
 
-But then, this still doesn't make any sense because the syllables do
+But then, this still doesn't make any sense because the syllables don't form words.
+Rather than generating each syllable independently, we can generate a syllable base on its precedent so that after '하' follows '다', and after '그' we get '리' and '고'.
+In mathematical terms, this process is better known as a `Markov chain <http://en.wikipedia.org/wiki/Markov_chain>`_::
+    
+    국의의하되고인정부가는 요구한 대통령은 2조 사면 기밀과 헌법률로 위하의 위하며
+
+Our "sentence" above was generated with "bigrams", or "2-grams".
+If we wish to
