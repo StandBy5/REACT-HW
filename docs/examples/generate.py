@@ -34,4 +34,11 @@ def calc_cfd(doc):
 
 
 if __name__=='__main__':
-    nsents 
+    nsents = 5 # Number of sentences
+    initstr = u'국가' # Try replacing with u'국가', u'대통령', etc
+
+    doc = kolaw.open('constitution.txt').read()
+    cfd = calc_cfd(doc)
+
+    for i in range(nsents):
+        print('%d. %s' % (i, generate_sentence(cfd, initstr)))
