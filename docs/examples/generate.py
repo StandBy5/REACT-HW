@@ -18,4 +18,20 @@ def generate_sentence(cfdist, word, num=15):
         sentence.append(word)
 
         # Generate the next word based on probability
-        choices, weights = zip(*cfdist[word].items()
+        choices, weights = zip(*cfdist[word].items())
+        cumdist = list(itertools.accumulate(weights))
+        x = random.random() * cumdist[-1]
+        word = choices[bisect.bisect(cumdist, x)]
+
+    return ' '.join(sentence)
+
+
+def calc_cfd(doc):
+    # Calculate conditional frequency distribution of bigrams
+    words = [w for w, t in Mecab().pos(doc)]
+    bigrams = nltk.bigrams(words)
+    return nltk.ConditionalFreqDist(bigrams)
+
+
+if __name__=='__main__':
+    nsents 
