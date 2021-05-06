@@ -28,4 +28,14 @@ In mathematical terms, this process is better known as a `Markov chain <http://e
     국의의하되고인정부가는 요구한 대통령은 2조 사면 기밀과 헌법률로 위하의 위하며
 
 Our "sentence" above was generated with "bigrams", or "2-grams".
-If we wish to
+If we wish to make more sense out of it, we could try "3-grams" (better known as trigrams) or "4-grams".
+Or, we could extend the same idea to longer sequences of letters, such as morphemes.
+Let's try this with actual code.
+
+
+.. warning::
+
+    The code below works with Python3, and not with Python2! You can run the code by typing `python3 generate.py` on your terminal.
+
+.. literalinclude:: generate.py
+    :languag
