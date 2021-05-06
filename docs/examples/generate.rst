@@ -38,4 +38,15 @@ Let's try this with actual code.
     The code below works with Python3, and not with Python2! You can run the code by typing `python3 generate.py` on your terminal.
 
 .. literalinclude:: generate.py
-    :languag
+    :language: python
+
+- Console::
+
+    0. 국민 은 법률 로 인한 배상 은 특별 한 영장 을 청구 할 수 있 어서 최고 득표자 가 제출 한 유일 한 때 에 의하 여 는 경우 를 선거 관리 할 수 없 을 포함 한 사항 은 청구 할 수 있 다
+    1. 국민 투표 의 범죄 에 의하 여 발언 하 지 아니한 회의 는 요건 은 1988 년 으로 대통령 이 의결 한다
+    2. 국민 경제 자문 기구 를 타파 하 기 위하 여 긴급 한 형태 로 정한다
+    3. 국민 은 이 정하 는 헌법 시행 당시 의 심사 할 수 있 다
+    4. 국민 의 기본 질서 를 진다
+
+Well, that's a lot better than the random string typed by our cat!
+T
