@@ -52,4 +52,12 @@ Well, that's a lot better than the random string typed by our cat!
 The sentences look a bit ugly because there are whitespaces between all morphemes, whereas in actual Korean text, they would be stuck together.
 Also note that this text generation model was built from a single document.
 If you were to build a model with a much larger corpus, you wouldn't even have to do morpheme analysis because you would have enough data for any potential `initstr`.
-Other than that, there
+Other than that, there are much more ways to improve this model!
+Feel free to experiment.
+
+For more on generating text, you can refer to Jon Bently's `Programming Pearls (Section 15.3) <http://www.cs.bell-labs.com/cm/cs/pearls/sec153.html>`_.
+
+Furthermore, if you use `language models <http://en.wikipedia.org/wiki/Language_model>`_, you can evaluate your random texts and figure out whether they actually make sense in a statistical point of view.
+
+
+.. [#] This story would actu
