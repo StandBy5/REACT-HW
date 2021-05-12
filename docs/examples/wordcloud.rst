@@ -10,4 +10,8 @@ You can change the bill number (i.e., ``bill_num``), and see how the word clouds
     :language: python
 
 .. note::
-    The `PyTagCloud <https://pypi.python.org/pypi/pytagcloud>`_ installed in PyPI may not be sufficient for drawing wordclouds 
+    The `PyTagCloud <https://pypi.python.org/pypi/pytagcloud>`_ installed in PyPI may not be sufficient for drawing wordclouds in Korean.
+    You may add eligible fonts - that support the Korean language - manually, or install the Korean supported version `here <https://github.com/e9t/PyTagCloud>`_.
+
+.. image:: wordcloud.png
+    :width: 100%
