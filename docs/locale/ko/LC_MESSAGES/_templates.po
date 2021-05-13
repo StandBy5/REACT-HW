@@ -46,4 +46,5 @@ msgid "`Issue tracker <http://github.com/e9t/konlpy/issues>`_"
 msgstr "이슈트래커"
 
 #: ../../_templates/sidebar-header.rst:6
-msgid "KoNLPy i
+msgid "KoNLPy is a Python package for Korean natural language processing."
+msgstr "KoNLPy는 한국어 NLP를 위한 파이썬 패키지입니다."
