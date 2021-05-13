@@ -33,4 +33,17 @@ msgstr ""
 msgid "`한국어 <http://konlpy.readthedocs.org/ko>`_"
 msgstr ""
 
-#
+#: ../../_templates/sidebar-footer.rst:16
+msgid "Useful Links"
+msgstr "유용한 링크"
+
+#: ../../_templates/sidebar-footer.rst:18
+msgid "`KoNLPy @ GitHub <http://github.com/e9t/konlpy>`_"
+msgstr "깃헙에서 KoNLPy 보기"
+
+#: ../../_templates/sidebar-footer.rst:19
+msgid "`Issue tracker <http://github.com/e9t/konlpy/issues>`_"
+msgstr "이슈트래커"
+
+#: ../../_templates/sidebar-header.rst:6
+msgid "KoNLPy i
