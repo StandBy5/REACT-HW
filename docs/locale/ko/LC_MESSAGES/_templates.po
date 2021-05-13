@@ -18,4 +18,19 @@ msgstr "후원하기"
 #: ../../_templates/sidebar-footer.rst:4
 msgid ""
 "If you love KoNLPy, consider supporting the author `on Gittip "
-"<https://www.gittip.com/echojuliett
+"<https://www.gittip.com/echojuliett/>`_:"
+msgstr "KoNLPy가 마음에 드셨다면, `Gratipay <https://www.gratipay.com/echojuliett/>`_ 를 통한 후원을 고려해주세요."
+
+#: ../../_templates/sidebar-footer.rst:10
+msgid "Translations"
+msgstr "다른 언어로 보기"
+
+#: ../../_templates/sidebar-footer.rst:12
+msgid "`English <http://konlpy.readthedocs.org/en>`_"
+msgstr ""
+
+#: ../../_templates/sidebar-footer.rst:13
+msgid "`한국어 <http://konlpy.readthedocs.org/ko>`_"
+msgstr ""
+
+#
