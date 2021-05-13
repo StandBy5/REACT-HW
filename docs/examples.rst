@@ -36,4 +36,26 @@ Below are a set of example tasks using KoNLPy.
 
 .. container:: example
 
-    :doc:`examples/wordclo
+    :doc:`examples/wordcloud`
+
+    .. figure:: examples/wordcloud.png
+
+.. container:: example
+
+    :doc:`examples/multithreading`
+
+    .. figure:: examples/multithreading.png
+
+
+Contents
+--------
+
+.. toctree::
+
+    examples/explore
+    examples/collocations
+    examples/chunking
+    examples/generate
+    examples/wordcloud
+    examples/multithreading
+    examples/corpus
