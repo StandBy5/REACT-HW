@@ -5,3 +5,17 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-08-16 23:07\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Lucy Park <me@lucypark.kr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_templates/sidebar-footer.rst:2
+msgid "Donate"
+msgstr "후원하기"
+
+#: ../../_templates/sidebar-footer.rst:4
+msgid ""
+"If you love KoNLPy, consider supporting the author `on Gittip "
+"<https://www.gittip.com/echojuliett
