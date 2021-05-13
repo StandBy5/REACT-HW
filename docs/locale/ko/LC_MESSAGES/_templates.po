@@ -1,0 +1,7 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: KoNLPy 0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-16 23:07\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
