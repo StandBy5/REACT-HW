@@ -28,4 +28,14 @@ msgid ""
 msgstr ""
 
 #: ../../../konlpy/corpus.pydocstring of konlpy.corpus.CorpusLoader.abspath:4
-#: ../../../konlpy/corpus.pydoc
+#: ../../../konlpy/corpus.pydocstring of konlpy.corpus.CorpusLoader.open:4
+msgid "Name of a particular file in the corpus."
+msgstr ""
+
+#: ../../../konlpy/corpus.pydocstring of konlpy.corpus.CorpusLoader.fileids:1
+msgid "List of file IDs in the corpus."
+msgstr ""
+
+#: ../../../konlpy/corpus.pydocstring of konlpy.corpus.CorpusLoader.open:1
+msgid "Method to open a file in the corpus. Returns a file object."
+msgstr ""
