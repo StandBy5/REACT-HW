@@ -21,4 +21,25 @@ msgid ""
 "projects. It is a drivative of Mitsuhiko's themes for Flask and Flask "
 "related projects.  To use this style in your Sphinx documentation, follow "
 "this guide:"
-msgstr "
+msgstr ""
+
+#: ../../_themes/README.rst:9
+msgid ""
+"put this folder as _themes into your docs folder.  Alternatively you can "
+"also use git submodules to check out the contents there."
+msgstr ""
+
+#: ../../_themes/README.rst:12
+msgid "add this to your conf.py: ::"
+msgstr ""
+
+#: ../../_themes/README.rst:18
+msgid "The following themes exist:"
+msgstr ""
+
+#: ../../_themes/README.rst:21
+msgid "**kr**"
+msgstr ""
+
+#: ../../_themes/README.rst:21
+msgid "
