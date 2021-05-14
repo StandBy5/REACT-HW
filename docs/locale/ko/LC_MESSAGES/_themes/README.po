@@ -9,4 +9,16 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../_themes/README.rst:2
+msgid "krTheme Sphinx Style"
+msgstr ""
+
+#: ../../_themes/README.rst:4
+msgid ""
+"This repository contains sphinx styles Kenneth Reitz uses in most of his "
+"projects. It is a drivative of Mitsuhiko's themes for Flask and Flask "
+"related projects.  To use this style in your Sphinx documentation, follow "
+"this guide:"
+msgstr "
