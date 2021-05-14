@@ -19,4 +19,16 @@ msgstr ""
 msgid "Subpackages"
 msgstr ""
 
-#: ..
+#: ../../api/konlpy.rst:13
+msgid ":mod:`data` Module"
+msgstr ""
+
+#: ../../../konlpy/data.pydocstring of konlpy.data.find:1
+msgid ""
+"Find the path of a given resource URL by searching through directories in "
+"``konlpy.data.path``. If the given resource is not found, raise a "
+"``LookupError``, whose message gives a pointer to the installation "
+"instructions for ``konlpy.download()``."
+msgstr ""
+
+#: .
