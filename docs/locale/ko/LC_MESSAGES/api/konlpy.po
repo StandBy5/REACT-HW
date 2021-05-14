@@ -40,4 +40,13 @@ msgid ""
 "KoNLPy."
 msgstr ""
 
-#: ../../../konlpy/data.pydocstrin
+#: ../../../konlpy/data.pydocstring of konlpy.data.load:1
+msgid ""
+"Load a given resource from the KoNLPy data package. If no format is "
+"specified, ``load()`` will attempt to determine a format based on the "
+"resource name's file extension. If that fails, ``load()`` will raise a "
+"``ValueError`` exception."
+msgstr ""
+
+#: ../../../konlpy/data.pydocstring of konlpy.data.load:7
+msgid "A URL specifying where the res
