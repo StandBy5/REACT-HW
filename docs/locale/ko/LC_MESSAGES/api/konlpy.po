@@ -31,4 +31,13 @@ msgid ""
 "instructions for ``konlpy.download()``."
 msgstr ""
 
-#: .
+#: ../../../konlpy/data.pydocstring of konlpy.data.find:6
+msgid ""
+"The URL of the resource to search for. URLs are posix-style relative path "
+"names, such as ``corpora/kolaw``. In particular, directory names should "
+"always be separated by the forward slash character (i.e., '/'), which will "
+"be automatically converted to a platform-appropriate path separator by "
+"KoNLPy."
+msgstr ""
+
+#: ../../../konlpy/data.pydocstrin
