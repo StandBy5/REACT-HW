@@ -49,4 +49,15 @@ msgid ""
 msgstr ""
 
 #: ../../../konlpy/data.pydocstring of konlpy.data.load:7
-msgid "A URL specifying where the res
+msgid "A URL specifying where the resource should be loaded from."
+msgstr ""
+
+#: ../../../konlpy/data.pydocstring of konlpy.data.load:8
+msgid "Format type of resource."
+msgstr ""
+
+#: ../../../konlpy/data.pydocstring of konlpy.data.path:1
+msgid ""
+"A list of directories where the KoNLPy data package might reside. These "
+"directories will be checked in order when looking for a resource. Note that "
+"this allows users to substitute thei
