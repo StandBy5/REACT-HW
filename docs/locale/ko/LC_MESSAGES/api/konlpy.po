@@ -60,4 +60,19 @@ msgstr ""
 msgid ""
 "A list of directories where the KoNLPy data package might reside. These "
 "directories will be checked in order when looking for a resource. Note that "
-"this allows users to substitute thei
+"this allows users to substitute their own versions of resources."
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`konlpy.data.PathPointer`, :class:`str`"
+msgstr ""
+
+#: ../../../konlpy/data.pydocstring of konlpy.data.FileSystemPathPointer:1
+msgid "A path pointer that identifies a file by an absolute path."
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../konlpy/data.pydocstring of konlpy.data.
