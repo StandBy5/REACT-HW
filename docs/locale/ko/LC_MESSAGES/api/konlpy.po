@@ -75,4 +75,17 @@ msgstr ""
 msgid "Bases: :class:`object`"
 msgstr ""
 
-#: ../../../konlpy/data.pydocstring of konlpy.data.
+#: ../../../konlpy/data.pydocstring of konlpy.data.PathPointer:1
+msgid ""
+"An abstract base class for path pointers. One subclass exists: 1. "
+"``FileSystemPathPointer``: Identifies a file by an absolute path."
+msgstr ""
+
+#: ../../api/konlpy.rst:21
+msgid ":mod:`downloader` Module"
+msgstr ""
+
+#: ../../../konlpy/downloader.pydocstring of konlpy.downloader.download:1
+msgid ""
+"The KoNLPy data downloader. With this module you can download corpora, "
+"models and other data packages that can be use
