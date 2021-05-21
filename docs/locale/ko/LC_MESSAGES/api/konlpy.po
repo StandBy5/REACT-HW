@@ -88,4 +88,18 @@ msgstr ""
 #: ../../../konlpy/downloader.pydocstring of konlpy.downloader.download:1
 msgid ""
 "The KoNLPy data downloader. With this module you can download corpora, "
-"models and other data packages that can be use
+"models and other data packages that can be used with KoNLPy."
+msgstr ""
+
+#: ../../api/konlpy.rst:29
+msgid ":mod:`jvm` Module"
+msgstr ""
+
+#: ../../../konlpy/jvm.pydocstring of konlpy.jvm.init_jvm:1
+msgid "Initializes the Java virtual machine (JVM)."
+msgstr ""
+
+#: ../../../konlpy/jvm.pydocstring of konlpy.jvm.init_jvm:3
+msgid ""
+"The path of the JVM. If left empty, inferred by "
+":py:func:`jpype.getDefaultJVMPath
