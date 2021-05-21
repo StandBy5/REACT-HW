@@ -102,4 +102,20 @@ msgstr ""
 #: ../../../konlpy/jvm.pydocstring of konlpy.jvm.init_jvm:3
 msgid ""
 "The path of the JVM. If left empty, inferred by "
-":py:func:`jpype.getDefaultJVMPath
+":py:func:`jpype.getDefaultJVMPath`."
+msgstr ""
+
+#: ../../api/konlpy.rst:37
+msgid ":mod:`utils` Module"
+msgstr ""
+
+#: ../../<autodoc>:1
+msgid "Bases: :class:`pprint.PrettyPrinter`"
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.UnicodePrinter.format:1
+msgid "Overrided method to enable Unicode pretty print."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.char2hex:1
+msgid "Converts a unicode characte
