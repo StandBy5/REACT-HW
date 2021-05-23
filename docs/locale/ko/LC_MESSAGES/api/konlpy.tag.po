@@ -27,4 +27,17 @@ msgstr ""
 
 #: ../../../konlpy/tag/_hannanum.pydocstring of
 #: konlpy.tag._hannanum.Hannanum:1
-msgid 
+msgid ""
+"Wrapper for `JHannanum "
+"<http://semanticweb.kaist.ac.kr/home/index.php/HanNanum>`_."
+msgstr ""
+
+#: ../../../konlpy/tag/_hannanum.pydocstring of
+#: konlpy.tag._hannanum.Hannanum:3
+msgid ""
+"JHannanum is a morphological analyzer and POS tagger written in Java, and "
+"developed by the `Semantic Web Research Center (SWRC) "
+"<http://semanticweb.kaist.ac.kr/>`_ at KAIST since 1999."
+msgstr ""
+
+#: ../../../konlpy/tag/_hannanum.p
