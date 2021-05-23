@@ -118,4 +118,30 @@ msgid "Overrided method to enable Unicode pretty print."
 msgstr ""
 
 #: ../../../konlpy/utils.pydocstring of konlpy.utils.char2hex:1
-msgid "Converts a unicode characte
+msgid "Converts a unicode character to hex."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.concat:1
+msgid "Concatenates lines into a unified string."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.concordance:1
+msgid "Find concordances of a phrase in a text."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.concordance:3
+msgid ""
+"The farmost left numbers are indices, that indicate the location of the "
+"phrase in the text (by means of tokens). The following string, is part of "
+"the text surrounding the phrase for the given index."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.concordance:5
+msgid "Phrase to search in the document."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.concordance:6
+msgid "Target document."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.concordance:
