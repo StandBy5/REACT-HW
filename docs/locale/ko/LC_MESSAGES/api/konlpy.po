@@ -185,4 +185,5 @@ msgid "Text file reader."
 msgstr ""
 
 #: ../../../konlpy/utils.pydocstring of konlpy.utils.select:1
-msgid "Re
+msgid "Replaces some ambiguous punctuation marks to simpler ones."
+msgstr ""
