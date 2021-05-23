@@ -144,4 +144,17 @@ msgstr ""
 msgid "Target document."
 msgstr ""
 
-#: ../../../konlpy/utils.pydocstring of konlpy.utils.concordance:
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.concordance:7
+msgid "If ``True``, shows locations of the phrase on the console."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.hex2char:1
+msgid "Converts a hex character to unicode."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.load_txt:1
+msgid "Text file loader. To read a file, use ``read_txt()``instead."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.partition:1
+msgid "Partitio
