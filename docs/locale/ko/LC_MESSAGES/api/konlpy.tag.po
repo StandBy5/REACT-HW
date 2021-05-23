@@ -9,4 +9,22 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Tran
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../api/konlpy.tag.rst:2
+msgid "tag Package"
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:6
+msgid ""
+"Initial runs of each class method may require some time to load dictionaries"
+" (< 1 *min*). Second runs should be faster."
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:10
+msgid ":class:`Hannanum` Class"
+msgstr ""
+
+#: ../../../konlpy/tag/_hannanum.pydocstring of
+#: konlpy.tag._hannanum.Hannanum:1
+msgid 
