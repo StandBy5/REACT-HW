@@ -157,4 +157,19 @@ msgid "Text file loader. To read a file, use ``read_txt()``instead."
 msgstr ""
 
 #: ../../../konlpy/utils.pydocstring of konlpy.utils.partition:1
-msgid "Partitio
+msgid "Partitions a list to several parts using indices."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.partition:3
+msgid "The target list."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.partition:4
+msgid "Indices to partition the target list."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.pprint:1
+msgid "Unicode pretty printer."
+msgstr ""
+
+#: ../../.
