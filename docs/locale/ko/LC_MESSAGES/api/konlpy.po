@@ -172,4 +172,17 @@ msgstr ""
 msgid "Unicode pretty printer."
 msgstr ""
 
-#: ../../.
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.preprocess:1
+msgid "Preprocesses a phrase in the following steps:."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.preprocess:3
+msgid ":py:func:`.concat`"
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.read_txt:1
+msgid "Text file reader."
+msgstr ""
+
+#: ../../../konlpy/utils.pydocstring of konlpy.utils.select:1
+msgid "Re
