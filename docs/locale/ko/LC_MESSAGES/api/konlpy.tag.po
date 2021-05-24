@@ -40,4 +40,17 @@ msgid ""
 "<http://semanticweb.kaist.ac.kr/>`_ at KAIST since 1999."
 msgstr ""
 
-#: ../../../konlpy/tag/_hannanum.p
+#: ../../../konlpy/tag/_hannanum.pydocstring of
+#: konlpy.tag._hannanum.Hannanum:15 ../../../konlpy/tag/_kkma.pydocstring of
+#: konlpy.tag._kkma.Kkma:15
+msgid "The path of the JVM passed to :py:func:`.init_jvm`."
+msgstr ""
+
+#: ../../../konlpy/tag/_hannanum.pydocstring of
+#: konlpy.tag._hannanum.Hannanum.analyze:1
+msgid "Phrase analyzer."
+msgstr ""
+
+#: ../../../konlpy/tag/_hannanum.pydocstring of
+#: konlpy.tag._hannanum.Hannanum.analyze:3
+msgid "
