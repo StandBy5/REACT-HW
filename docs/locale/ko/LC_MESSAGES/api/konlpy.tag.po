@@ -112,3 +112,16 @@ msgstr ""
 #: ../../api/konlpy.tag.rst:26
 msgid ":class:`Mecab` Class"
 msgstr ""
+
+#: ../../api/konlpy.tag.rst:28
+msgid "Mecab is not supported for Python 3 and Windows 7."
+msgstr ""
+
+#: ../../../konlpy/tag/_mecab.pydocstring of konlpy.tag._mecab.Mecab:1
+msgid "Wrapper for MeCab-ko morphological analyzer."
+msgstr ""
+
+#: ../../../konlpy/tag/_mecab.pydocstring of konlpy.tag._mecab.Mecab:3
+msgid ""
+"`MeCab`_, originally a Japanese morphological analyzer and a POS tagger "
+"developed by the Graduate S
