@@ -53,4 +53,13 @@ msgstr ""
 
 #: ../../../konlpy/tag/_hannanum.pydocstring of
 #: konlpy.tag._hannanum.Hannanum.analyze:3
-msgid "
+msgid ""
+"This analyzer returns various morphological candidates for each token. It "
+"consists of two parts: 1) Dictionary search (chart), 2) Unclassified term "
+"segmentation."
+msgstr ""
+
+#: ../../../konlpy/tag/_hannanum.pydocstring of
+#: konlpy.tag._hannanum.Hannanum.morphs:1
+#: ../../../konlpy/tag/_kkma.pydocstring of konlpy.tag._kkma.Kkma.morphs:1
+#: ../../../konlpy/tag/_mecab.pydocstring of konlpy.tag.
