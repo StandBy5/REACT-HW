@@ -74,4 +74,15 @@ msgid "Noun extractor."
 msgstr ""
 
 #: ../../../konlpy/tag/_hannanum.pydocstring of
-#: ko
+#: konlpy.tag._hannanum.Hannanum.pos:1 ../../../konlpy/tag/_kkma.pydocstring
+#: of konlpy.tag._kkma.Kkma.pos:1 ../../../konlpy/tag/_mecab.pydocstring of
+#: konlpy.tag._mecab.Mecab.pos:1
+msgid "POS tagger."
+msgstr ""
+
+#: ../../../konlpy/tag/_hannanum.pydocstring of
+#: konlpy.tag._hannanum.Hannanum.pos:3
+msgid "This tagger is HMM based, and calculates the probability of tags."
+msgstr ""
+
+#: ../../../konlpy/tag/_han
