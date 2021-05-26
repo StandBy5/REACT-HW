@@ -98,4 +98,17 @@ msgstr ""
 msgid "Wrapper for `Kkma <http://kkma.snu.ac.kr>`_."
 msgstr ""
 
-#: ../../../konlpy/tag/_kkma.pydocstring of konlpy.tag._kkma
+#: ../../../konlpy/tag/_kkma.pydocstring of konlpy.tag._kkma.Kkma:3
+msgid ""
+"Kkma is a morphological analyzer and natural language processing system "
+"written in Java, developed by the Intelligent Data Systems (IDS) Laboratory "
+"at `SNU <http://snu.ac.kr>`_."
+msgstr ""
+
+#: ../../../konlpy/tag/_kkma.pydocstring of konlpy.tag._kkma.Kkma.sentences:1
+msgid "Sentence detection."
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:26
+msgid ":class:`Mecab` Class"
+msgstr ""
