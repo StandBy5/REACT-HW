@@ -1,0 +1,60 @@
+
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KoNLPy 0.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-13 19:33+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../api.rst:2
+msgid "API"
+msgstr ""
+
+#: ../../api/konlpy.rst:2
+msgid "konlpy Package"
+msgstr ""
+
+#: ../../api/konlpy.rst:5
+msgid "Subpackages"
+msgstr ""
+
+#: ../../api/konlpy.rst:13
+msgid ":mod:`data` Module"
+msgstr ""
+
+#: konlpy.data.find:1 of
+msgid ""
+"Find the path of a given resource URL by searching through directories in"
+" ``konlpy.data.path``. If the given resource is not found, raise a "
+"``LookupError``, whose message gives a pointer to the installation "
+"instructions for ``konlpy.download()``."
+msgstr ""
+
+#: konlpy.corpus.CorpusLoader.abspath konlpy.corpus.CorpusLoader.open
+#: konlpy.data.find konlpy.data.load konlpy.jvm.init_jvm
+#: konlpy.tag._hannanum.Hannanum konlpy.tag._hannanum.Hannanum.pos
+#: konlpy.tag._kkma.Kkma konlpy.tag._kkma.Kkma.pos konlpy.tag._komoran.Komoran
+#: konlpy.tag._komoran.Komoran.pos konlpy.tag._mecab.Mecab
+#: konlpy.tag._mecab.Mecab.pos konlpy.tag._okt.Okt konlpy.tag._okt.Okt.pos
+#: konlpy.utils.concordance konlpy.utils.partition of
+msgid "Parameters"
+msgstr ""
+
+#: konlpy.data.find:8 of
+msgid ""
+"The URL of the resource to search for. URLs are posix-style relative path"
+" names, such as ``corpora/kolaw``. In particular, directory names should "
+"always be separated by the forward slash character (i.e., '/'), which "
+"will be automatically converted to a platform-appropriate path separator "
+"by KoNLPy."
+msgstr ""
+
+#: konlpy.data.load:1 of
+msgid ""

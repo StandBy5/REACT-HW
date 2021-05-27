@@ -136,4 +136,15 @@ msgid ""
 msgstr ""
 
 #: ../../../konlpy/tag/_mecab.pydocstring of konlpy.tag._mecab.Mecab:18
-msgid "The path of th
+msgid "The path of the MeCab-ko dictionary."
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:36
+msgid ""
+"`Korean POS tags comparison chart <https://docs.google.com/spreadsheets/d"
+"/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0>`_"
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:38
+msgid "Compare POS tags between several Korean analytic projects. (In Korean)"
+msgstr ""
