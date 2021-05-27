@@ -468,3 +468,219 @@ msgstr ""
 
 #: ../../api/konlpy.tag.rst:18
 msgid ":class:`Kkma` Class"
+msgstr ""
+
+#: konlpy.tag._kkma.Kkma:1 of
+msgid "Wrapper for `Kkma <http://kkma.snu.ac.kr>`_."
+msgstr ""
+
+#: konlpy.tag._kkma.Kkma:3 of
+msgid ""
+"Kkma is a morphological analyzer and natural language processing system "
+"written in Java, developed by the Intelligent Data Systems (IDS) "
+"Laboratory at `SNU <http://snu.ac.kr>`_."
+msgstr ""
+
+#: konlpy.tag._kkma.Kkma:22 of
+msgid ""
+"There are reports that ``Kkma()`` is weak for long strings with no spaces"
+" between words. See issue :issue:`73` for details."
+msgstr ""
+
+#: konlpy.tag._kkma.Kkma.sentences:1 of
+msgid "Sentence detection."
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:26
+msgid ":class:`Komoran` Class"
+msgstr ""
+
+#: konlpy.tag._komoran.Komoran:1 of
+msgid "Wrapper for `KOMORAN <https://github.com/shin285/KOMORAN>`_."
+msgstr ""
+
+#: konlpy.tag._komoran.Komoran:3 of
+msgid ""
+"KOMORAN is a relatively new open source Korean morphological analyzer "
+"written in Java, developed by `Shineware <http://shineware.co.kr>`_, "
+"since 2013."
+msgstr ""
+
+#: konlpy.tag._komoran.Komoran:21 of
+msgid ""
+"The path to the user dictionary.  This enables the user to enter custom "
+"tokens or phrases, that are mandatorily assigned to tagged as a "
+"particular POS. Each line of the dictionary file should consist of a "
+"token or phrase, followed by a POS tag, which are delimited with a "
+"`<tab>` character.  An example of the file format is as follows:  .. "
+"code-block:: python      바람과 함께 사라지다 NNG     바람과 함께      NNP     자연어 NNG"
+"  If a particular POS is not assigned for a token or phrase, it will be "
+"tagged as NNP."
+msgstr ""
+
+#: konlpy.tag._komoran.Komoran:21 of
+msgid "The path to the user dictionary."
+msgstr ""
+
+#: konlpy.tag._komoran.Komoran:23 of
+msgid ""
+"This enables the user to enter custom tokens or phrases, that are "
+"mandatorily assigned to tagged as a particular POS. Each line of the "
+"dictionary file should consist of a token or phrase, followed by a POS "
+"tag, which are delimited with a `<tab>` character."
+msgstr ""
+
+#: konlpy.tag._komoran.Komoran:26 of
+msgid "An example of the file format is as follows:"
+msgstr ""
+
+#: konlpy.tag._komoran.Komoran:34 of
+msgid ""
+"If a particular POS is not assigned for a token or phrase, it will be "
+"tagged as NNP."
+msgstr ""
+
+#: konlpy.tag._komoran.Komoran:35 of
+msgid "The path to the Komoran HMM model."
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:34
+msgid ":class:`Mecab` Class"
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:36
+msgid "``Mecab()`` is not supported on ``Windows``."
+msgstr ""
+
+#: konlpy.tag._mecab.Mecab:1 of
+msgid "Wrapper for MeCab-ko morphological analyzer."
+msgstr ""
+
+#: konlpy.tag._mecab.Mecab:3 of
+msgid ""
+"`MeCab`_, originally a Japanese morphological analyzer and POS tagger "
+"developed by the Graduate School of Informatics in Kyoto University, was "
+"modified to MeCab-ko by the `Eunjeon Project`_ to adapt to the Korean "
+"language."
+msgstr ""
+
+#: konlpy.tag._mecab.Mecab:8 of
+msgid ""
+"In order to use MeCab-ko within KoNLPy, follow the directions in :ref"
+":`optional-installations`."
+msgstr ""
+
+#: konlpy.tag._mecab.Mecab:24 of
+msgid "The path of the MeCab-ko dictionary."
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:44
+msgid ":class:`Okt` Class"
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:46
+msgid "``Twitter()`` has changed to ``Okt()`` since v0.5.0."
+msgstr ""
+
+#: konlpy.tag._okt.Okt:1 of
+msgid ""
+"Wrapper for `Open Korean Text <https://github.com/open-korean-text/open-"
+"korean-text>`_."
+msgstr ""
+
+#: konlpy.tag._okt.Okt:3 of
+msgid ""
+"Open Korean Text is an open source Korean tokenizer written in Scala, "
+"developed by Will Hohyon Ryu."
+msgstr ""
+
+#: konlpy.tag._okt.Okt.phrases:1 of
+msgid "Phrase extractor."
+msgstr ""
+
+#: konlpy.tag._okt.Okt.pos:1 of
+msgid ""
+"POS tagger. In contrast to other classes in this subpackage, this POS "
+"tagger doesn't have a `flatten` option, but has `norm` and `stem` "
+"options. Check the parameter list below."
+msgstr ""
+
+#: konlpy.tag._okt.Okt.pos:7 of
+msgid "If True, normalize tokens."
+msgstr ""
+
+#: konlpy.tag._okt.Okt.pos:8 of
+msgid "If True, stem tokens."
+msgstr ""
+
+#: konlpy.tag._okt.Twitter:1 of
+msgid ""
+"The ``Twitter()`` backend has changed to ``Okt()`` since KoNLPy v0.5.0. "
+"See :issue:`141` for details."
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:55
+msgid ""
+"`Korean POS tags comparison chart <https://docs.google.com/spreadsheets/d"
+"/1OGAjUvalBuX-oZvZ_-9tEfYD2gQe7hTGsgUpiiBSXI8/edit#gid=0>`_"
+msgstr ""
+
+#: ../../api/konlpy.tag.rst:57
+msgid "Compare POS tags between several Korean analytic projects. (In Korean)"
+msgstr ""
+
+#~ msgid ""
+#~ "Wrapper for `KOMORAN "
+#~ "<http://shineware.tistory.com/entry/KOMORAN-ver-24>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The path of dictionary files. The "
+#~ "KOMORAN system dictionary is loaded by"
+#~ " default."
+#~ msgstr ""
+
+#~ msgid "``Mecab()`` is not supported on ``Windows 7``."
+#~ msgstr ""
+
+#~ msgid ":class:`Twitter` Class"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Wrapper for `Twitter Korean Text "
+#~ "<https://github.com/twitter/twitter-korean-text>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Twitter Korean Text is an open "
+#~ "source Korean tokenizer written in "
+#~ "Scala, developed by Will Hohyon Ryu."
+#~ msgstr ""
+
+#~ msgid "Bases: :class:`pprint.PrettyPrinter`"
+#~ msgstr ""
+
+#~ msgid "Overrided method to enable Unicode pretty print."
+#~ msgstr ""
+
+#~ msgid "Reads a csv file."
+#~ msgstr ""
+
+#~ msgid "File object."
+#~ msgstr ""
+
+#~ msgid "Writes a csv file."
+#~ msgstr ""
+
+#~ msgid "A list of list."
+#~ msgstr ""
+
+#~ msgid "Unicode pretty printer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Option to stream to a particular "
+#~ "destination. Can be either sys.stdout "
+#~ "(default) or sys.stderr. See #179 for"
+#~ " details."
+#~ msgstr ""
