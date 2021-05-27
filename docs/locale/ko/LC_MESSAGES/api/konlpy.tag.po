@@ -124,4 +124,16 @@ msgstr ""
 #: ../../../konlpy/tag/_mecab.pydocstring of konlpy.tag._mecab.Mecab:3
 msgid ""
 "`MeCab`_, originally a Japanese morphological analyzer and a POS tagger "
-"developed by the Graduate S
+"developed by the Graduate School of Informatics in Kyoto University, was "
+"modified to MeCab-ko by the `Eunjeon Project`_ to adapt to the Korean "
+"language."
+msgstr ""
+
+#: ../../../konlpy/tag/_mecab.pydocstring of konlpy.tag._mecab.Mecab:5
+msgid ""
+"In order to use MeCab-ko within KoNLPy, follow the directions in :ref"
+":`optional-installations`."
+msgstr ""
+
+#: ../../../konlpy/tag/_mecab.pydocstring of konlpy.tag._mecab.Mecab:18
+msgid "The path of th
