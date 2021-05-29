@@ -11,4 +11,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../examples/explore.rs
+#: ../../examples/explore.rst:2
+msgid "Exploring a document"
+msgstr ""
+
+#: ../../examples/explore.rst:4
+msgid "Exploring a document can consist of various components:"
+msgstr ""
+
+#: ../../examples/explore.rst:6
+msgid "Counts (characters, words, etc.)"
+msgstr ""
+
+#: ../../examples/explore.rst:7
+msgid "Checking Zipf's laws: :math:`fr=k`"
+msgstr ""
+
+#: ../../examples/explore.rst:8
+msgid "Concordances"
+msgstr ""
+
+#: ../../examples/explore.rst:13
+msgid
