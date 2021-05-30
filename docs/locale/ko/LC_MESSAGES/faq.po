@@ -44,4 +44,32 @@ msgid "Pypy는요? 라고 물으면 그건 조금 더 생각해보자."
 msgstr ""
 
 #: ../../faq.rst:27
-msgid "Why do I have to install
+msgid "Why do I have to install JPype?"
+msgstr ""
+
+#: ../../faq.rst:29
+msgid "Hannanum, KKMA 등이 자바 기반, 중요함"
+msgstr ""
+
+#: ../../faq.rst:32
+msgid "Can I use KoNLPy for production?"
+msgstr ""
+
+#: ../../faq.rst:34
+msgid "NLTK도 원래 교육, 연구용인데 지금은 프로덕션용으로 잘 쓰임"
+msgstr ""
+
+#: ../../faq.rst:35
+msgid "상업적 이용 안됨"
+msgstr ""
+
+#: ../../faq.rst:38
+msgid "연구에 이용하려고 합니다. 어떤 페이퍼를 인용하면 되나요?"
+msgstr ""
+
+#: ../../faq.rst:40
+msgid "///"
+msgstr ""
+
+#: ../../faq.rst:43
+msgid "Wha
