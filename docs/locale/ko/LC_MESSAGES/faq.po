@@ -3,4 +3,24 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoNLPy 0.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-19 1
+"POT-Creation-Date: 2014-09-19 15:22+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../faq.rst:2
+msgid "Frequently asked questions"
+msgstr ""
+
+#: ../../faq.rst:5
+msgid "What license does KoNLPy use?"
+msgstr ""
+
+#: ../../faq.rst:7
+msgid "사용 배포 수정"
+msgstr ""
+
+#: ..
