@@ -72,4 +72,19 @@ msgid "///"
 msgstr ""
 
 #: ../../faq.rst:43
-msgid "Wha
+msgid "What are the plans for further development of KoNLPy?"
+msgstr ""
+
+#: ../../faq.rst:45
+msgid ""
+"KoNLPy는 최대한 오래 유지. 다만 가능하면 NLTK에 기능을 흡수시키는 방법을 끊임없이 검토할 예정. 일단은 현존하는 파이썬 NLP"
+" 관련 패키지들과 편하게 쓸 수 있는 방향으로 개발 (ex: 사전 형태 통일, syntax 최대한 유사하게)"
+msgstr ""
+
+#: ../../faq.rst:51
+msgid "I have trouble installing/using the package. Where can I find help?"
+msgstr ""
+
+#: ../../faq.rst:53
+msgid ""
+"https://github.com/e9t/konlpy/issue
