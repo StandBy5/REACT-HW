@@ -23,4 +23,25 @@ msgstr ""
 msgid "사용 배포 수정"
 msgstr ""
 
-#: ..
+#: ../../faq.rst:12
+msgid "What's the difference between all the morpheme analyzers?"
+msgstr ""
+
+#: ../../faq.rst:17
+msgid "Can I add custom terms to the dictionary?"
+msgstr ""
+
+#: ../../faq.rst:21
+msgid "Does KoNLPy support Python 3?"
+msgstr ""
+
+#: ../../faq.rst:23
+msgid "물론 지원 예정!"
+msgstr ""
+
+#: ../../faq.rst:24
+msgid "Pypy는요? 라고 물으면 그건 조금 더 생각해보자."
+msgstr ""
+
+#: ../../faq.rst:27
+msgid "Why do I have to install
