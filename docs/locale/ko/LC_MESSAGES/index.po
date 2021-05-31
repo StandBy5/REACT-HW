@@ -51,4 +51,17 @@ msgid ""
 "programming, and data analysis."
 msgstr ""
 "KoNLPy는 같은 기능을 하는 또 하나의 도구를 만들려는 것이 아닙니다. 그보다는, 현존하는 도구 위에 한 층을 쌓아 더 멀리 "
-"내다보려는 것입니다. 또한 KoNLPy는 `파이썬 <http://p
+"내다보려는 것입니다. 또한 KoNLPy는 `파이썬 <http://python.org>`_ 프로그래밍 언어로 사용할 수 있도록 "
+"만들어졌는데, 그것은 파이썬이 간결하고 우아한 문법구조, 강력한 스트링 연산 기능을 가지고 있을 뿐 아니라 크롤링, 웹프로그래밍, 그리고"
+" 데이터 분석을 수행할 수 있는 다양한 패키지를 사용할 수 있는 언어이기 때문입니다."
+
+#: ../../index.rst:65
+msgid "The three main philosophies of this project are:"
+msgstr "이 프로젝트에는 세 가지 철학이 있습니다:"
+
+#: ../../index.rst:67
+msgid "Keep it simple."
+msgstr "사용법이 간단해야 한다."
+
+#: ../../index.rst:69
+msgid ":ref:`
