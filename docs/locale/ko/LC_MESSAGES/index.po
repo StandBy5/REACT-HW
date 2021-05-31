@@ -81,4 +81,28 @@ msgid ""
 " participate!"
 msgstr "KoNLPy는 완벽하지 않습니다. 하지만 조금씩 지속적으로 발전시킬 예정이며, 누구나 개발 과정에 참여할 수 있습니다."
 
-#: ../../index.
+#: ../../index.rst:152
+msgid "User guide"
+msgstr "사용하기"
+
+#: ../../index.rst:168
+msgid "API"
+msgstr "API"
+
+#: ../../index.rst:177
+msgid "Indices and tables"
+msgstr "인덱스와 표"
+
+#: ../../index.rst:179
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+#: ../../index.rst:180
+msgid ":ref:`modindex`"
+msgstr ":ref:`modindex`"
+
+#: ../../index.rst:181
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+
+#: ../../i
