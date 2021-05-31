@@ -64,4 +64,21 @@ msgid "Keep it simple."
 msgstr "사용법이 간단해야 한다."
 
 #: ../../index.rst:69
-msgid ":ref:`
+msgid ":ref:`\"Democracy on the web works.\" <contribute>`"
+msgstr ":ref:`\"인터넷 민주주의는 효과적이다.\" <contribute>`"
+
+#: ../../index.rst:74
+msgid "License"
+msgstr "라이센스"
+
+#: ../../index.rst:99
+msgid "Contribute"
+msgstr "참여하기"
+
+#: ../../index.rst:101
+msgid ""
+"KoNLPy isn't perfect, but it will continuously evolve and you are invited to"
+" participate!"
+msgstr "KoNLPy는 완벽하지 않습니다. 하지만 조금씩 지속적으로 발전시킬 예정이며, 누구나 개발 과정에 참여할 수 있습니다."
+
+#: ../../index.
