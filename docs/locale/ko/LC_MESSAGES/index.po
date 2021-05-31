@@ -22,4 +22,15 @@ msgid ""
 "directions, see :doc:`here <install>`."
 msgstr ""
 "KoNLPy(\"코엔엘파이\"라고 읽습니다)는 한국어 정보처리를 위한 파이썬 패키지입니다. 설치법은 :doc:`이 곳을 "
-"<install>` 참고
+"<install>` 참고해주세요."
+
+#: ../../index.rst:57
+msgid "Standing on the shoulders of giants"
+msgstr "거인의 어깨 위에 서기"
+
+#: ../../index.rst:59
+msgid ""
+"Korean, the `13th most widely spoken language in the world "
+"<http://www.koreatimes.co.kr/www/news/nation/2014/05/116_157214.html>`_, is "
+"a beautiful, yet complex language. Myriad :ref:`engines` were built by "
+"numerous researchers, to computationally extract meaningful features fro
