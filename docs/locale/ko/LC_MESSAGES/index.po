@@ -44,4 +44,11 @@ msgstr ""
 #: ../../index.rst:62
 msgid ""
 "KoNLPy is not just to create another, but to unify and build upon their "
-"shoulders, and see one step further. It is built particularly in th
+"shoulders, and see one step further. It is built particularly in the `Python"
+" (programming) language <http://python.org>`_, not only because of the "
+"language's simplicity and elegance, but also the powerful string processing "
+"modules and applicability to various tasks - including crawling, Web "
+"programming, and data analysis."
+msgstr ""
+"KoNLPy는 같은 기능을 하는 또 하나의 도구를 만들려는 것이 아닙니다. 그보다는, 현존하는 도구 위에 한 층을 쌓아 더 멀리 "
+"내다보려는 것입니다. 또한 KoNLPy는 `파이썬 <http://p
