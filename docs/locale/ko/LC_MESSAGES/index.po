@@ -9,4 +9,17 @@ msgstr ""
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encodin
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:2
+msgid "KoNLPy: Korean NLP in Python"
+msgstr "KoNLPy: 파이썬 한국어 NLP"
+
+#: ../../index.rst:14
+msgid ""
+"KoNLPy (pronounced *\"ko en el PIE\"*) is a Python package for natural "
+"language processing (NLP) of the Korean language. For installation "
+"directions, see :doc:`here <install>`."
+msgstr ""
+"KoNLPy(\"코엔엘파이\"라고 읽습니다)는 한국어 정보처리를 위한 파이썬 패키지입니다. 설치법은 :doc:`이 곳을 "
+"<install>` 참고
