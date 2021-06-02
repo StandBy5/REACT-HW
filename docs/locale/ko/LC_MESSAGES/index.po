@@ -105,4 +105,20 @@ msgstr ":ref:`modindex`"
 msgid ":ref:`search`"
 msgstr ":ref:`search`"
 
-#: ../../i
+#: ../../index.rst:182
+msgid ":doc:`changelog`"
+msgstr ":doc:`changelog`"
+
+#: ../../index.rst:76
+msgid ""
+"KoNLPy is Open Source Software, and is released under the license below:"
+msgstr "KoNLPy는 오픈소스 소프트웨어이며, 아래의 라이센스를 채택하고 있습니다:"
+
+#: ../../index.rst:84
+msgid "Here is a BibTeX entry.::"
+msgstr "BibTeX는 아래의 코드를 사용하시면 됩니다.::"
+
+#: ../../index.rst:80
+msgid ""
+"You are welcome to use the code under the terms of the license, however "
+"please acknowledge its 
