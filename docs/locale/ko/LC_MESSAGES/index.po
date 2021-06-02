@@ -121,4 +121,13 @@ msgstr "BibTeX는 아래의 코드를 사용하시면 됩니다.::"
 #: ../../index.rst:80
 msgid ""
 "You are welcome to use the code under the terms of the license, however "
-"please acknowledge its 
+"please acknowledge its use with a citation."
+msgstr "라이센스에 따라 자유롭게 코드를 이용하실 수 있으며, 연구에 KoNLPy를 사용하신 경우 아래 논문을 인용해주시기 바랍니다."
+
+#: ../../index.rst:82
+msgid ""
+"Eunjeong L. Park, Sungzoon Cho. \"`KoNLPy: Korean natural language "
+"processing in Python "
+"<http://dmlab.snu.ac.kr/~lucypark/docs/2014-10-10-hclt.pdf>`_\", Proceedings"
+" of the 26th Annual Conference on Human & Cognitive Language Technology, "
+"Chunche
