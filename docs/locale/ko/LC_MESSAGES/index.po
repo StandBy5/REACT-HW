@@ -130,4 +130,16 @@ msgid ""
 "processing in Python "
 "<http://dmlab.snu.ac.kr/~lucypark/docs/2014-10-10-hclt.pdf>`_\", Proceedings"
 " of the 26th Annual Conference on Human & Cognitive Language Technology, "
-"Chunche
+"Chuncheon, Korea, Oct 2014."
+msgstr ""
+"박은정, 조성준, \"`KoNLPy: 쉽고 간결한 한국어 정보처리 파이썬 패키지 "
+"<http://dmlab.snu.ac.kr/~lucypark/docs/2014-10-10-hclt.pdf>`_\", 제 26회 한글 및 "
+"한국어 정보처리 학술대회 논문집, 2014."
+
+#: ../../index.rst:117
+msgid ""
+"Please note that *asking questions through these channels is also a great "
+"contribution*, because it gives the community feedback as well as ideas. "
+"Don't hesitate to ask."
+msgstr ""
+"무엇보
