@@ -142,4 +142,17 @@ msgid ""
 "contribution*, because it gives the community feedback as well as ideas. "
 "Don't hesitate to ask."
 msgstr ""
-"무엇보
+"무엇보다, 질문하는 것만으로도 엄청난 기여라는 점을 알아주세요! 질문은 개발 커뮤니티에 피드백을 주는 가장 직접적이면서도 쉬운 방법이고,"
+" 아이디어의 원천도 됩니다."
+
+#: ../../index.rst:141
+msgid "Getting started"
+msgstr "시작하기"
+
+#: ../../index.rst:17
+msgid ""
+"For users new to NLP, go to :ref:`start`. For step-by-step instructions, "
+"follow the :ref:`guide`. For specific descriptions of each module, go see "
+"the :ref:`api` documents."
+msgstr ""
+"NLP를 처음 시작하시는 분들은 :ref:`start` 에서 가볍게 기본 지식을 습득할 수 있으며, KoNLPy의 
