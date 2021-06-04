@@ -187,4 +187,13 @@ msgid ""
 "way around."
 msgstr ""
 "또, `gitter <https://gitter.im/konlpy/konlpy>`_ 의 대화에 참여하시거나, `KoNLPy 메일링리스트에"
-" <
+" <https://groups.google.com/forum/#!forum/konlpy>`_ 가입해서 관련 정보를 받아보거나 궁금한 것에"
+" 대한 질문을 할 수도 있습니다."
+
+#: ../../index.rst:68
+msgid "Make it easy. For humans."
+msgstr "누구나 쉽게 이용할 수 있어야 한다."
+
+#: ../../index.rst:78
+msgid "`GPL v3 or above <http://gnu.org/licenses/gpl.html>`_"
+msgstr "`GPL v3 또는 그 이상 <http://gnu.org/licenses/gpl.html>`_"

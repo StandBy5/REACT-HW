@@ -1,0 +1,4 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: KoNLPy 0.
