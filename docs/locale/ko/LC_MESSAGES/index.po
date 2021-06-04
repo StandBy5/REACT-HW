@@ -155,4 +155,18 @@ msgid ""
 "follow the :ref:`guide`. For specific descriptions of each module, go see "
 "the :ref:`api` documents."
 msgstr ""
-"NLP를 처음 시작하시는 분들은 :ref:`start` 에서 가볍게 기본 지식을 습득할 수 있으며, KoNLPy의 
+"NLP를 처음 시작하시는 분들은 :ref:`start` 에서 가볍게 기본 지식을 습득할 수 있으며, KoNLPy의 사용법 가이드는 "
+":ref:`guide`, 각 모듈의 상세사항은 :ref:`api` 문서에서 보실 수 있습니다."
+
+#: ../../index.rst:71
+msgid ""
+"Please `report <https://github.com/konlpy/konlpy/issues>`_ when you think "
+"any have gone stale."
+msgstr ""
+"위의 항목 중 하나라도 어긋나는 것이 있다면 `제보 부탁드립니다 "
+"<https://github.com/konlpy/konlpy/issues>`_."
+
+#: ../../index.rst:104
+msgid ""
+"Found a bug? Have a good idea for improving KoNLPy? Visit the `KoNLPy GitHub"
+" page <https://github.com/konlpy/konlp
