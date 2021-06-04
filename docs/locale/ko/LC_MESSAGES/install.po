@@ -25,4 +25,11 @@ msgid ""
 "`Windows "
 "<https://github.com/konlpy/konlpy/issues?q=label%3AOS%2FWindows>`_. "
 "Please record a `\"New Issue\" "
-"<https://gith
+"<https://github.com/konlpy/konlpy/issues/new>`_ if you have an error that"
+" is not listed."
+msgstr ""
+"설치 및 사용 도중 문제가 발생하는 경우 다음 페이지들을 참고해주세요: `리눅스 "
+"<https://github.com/konlpy/konlpy/issues?q=label%3Alinux>`_. `맥 OS "
+"<https://github.com/konlpy/konlpy/issues?q=label%3A\"mac+os\">`_. `윈도우 "
+"<https://github.com/konlpy/konlpy/issues?q=label%3Awindows>`_. 발생한 문제가 "
+"어디에도 없는 경우 `\"New Issue\" <https://github.com/konlpy/konlp
