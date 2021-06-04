@@ -169,4 +169,15 @@ msgstr ""
 #: ../../index.rst:104
 msgid ""
 "Found a bug? Have a good idea for improving KoNLPy? Visit the `KoNLPy GitHub"
-" page <https://github.com/konlpy/konlp
+" page <https://github.com/konlpy/konlpy>`_ and `suggest an idea "
+"<https://github.com/konlpy/konlpy/issues>`_ or `make a pull request "
+"<https://github.com/konlpy/konlpy/pulls>`_."
+msgstr ""
+"버그를 찾으셨나요? KoNLPy를 발전시킬 좋은 방법이 떠오르시나요? `KoNLPy 깃헙 페이지 "
+"<https://github.com/konlpy/konlpy>`_ 를 방문해서 `아이디어를 제안해주시거나 "
+"<https://github.com/konlpy/konlpy/issues>`_ `풀리퀘스트를 보내주세요. "
+"<https://github.com/konlpy/konlpy/pulls>`_"
+
+#: ../../index.rst:110
+msgid ""
+"You a
