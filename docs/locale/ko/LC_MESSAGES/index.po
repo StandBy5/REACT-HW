@@ -180,4 +180,11 @@ msgstr ""
 
 #: ../../index.rst:110
 msgid ""
-"You a
+"You are also welcome to join our `gitter <https://gitter.im/konlpy/konlpy>`_"
+" and the `mailing list <https://groups.google.com/forum/#!forum/konlpy>`_. "
+"Gitter is more focused on development discussions while the mailing list is "
+"a better place to ask questions, but nobody stops you from going the other "
+"way around."
+msgstr ""
+"또, `gitter <https://gitter.im/konlpy/konlpy>`_ 의 대화에 참여하시거나, `KoNLPy 메일링리스트에"
+" <
