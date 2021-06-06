@@ -32,4 +32,16 @@ msgstr ""
 "<https://github.com/konlpy/konlpy/issues?q=label%3Alinux>`_. `맥 OS "
 "<https://github.com/konlpy/konlpy/issues?q=label%3A\"mac+os\">`_. `윈도우 "
 "<https://github.com/konlpy/konlpy/issues?q=label%3Awindows>`_. 발생한 문제가 "
-"어디에도 없는 경우 `\"New Issue\" <https://github.com/konlpy/konlp
+"어디에도 없는 경우 `\"New Issue\" <https://github.com/konlpy/konlpy/issues/new>`_"
+" 버튼을 눌러 새로운 이슈를 생성해주시기 바랍니다. 각 머신 별 테스팅 로그는 `이 곳 "
+"<https://docs.google.com/spreadsheets/d/1Ii_L9NF9gSLbsJOGqsf-"
+"zfqTtyhhthmJWNC2kgUDIsU/edit#gid=0>`_ 에서 보실 수 있습니다."
+
+#: ../../install.rst:14
+msgid "Python 2 End of Life Announced as January 1st 2020."
+msgstr ""
+
+#: ../../install.rst:16
+msgid ""
+"This page covers Python 3 only.  The last-known version for Python 2 is "
+"v0.5.2, install it via `pip ins
