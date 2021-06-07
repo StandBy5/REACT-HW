@@ -44,4 +44,23 @@ msgstr ""
 #: ../../install.rst:16
 msgid ""
 "This page covers Python 3 only.  The last-known version for Python 2 is "
-"v0.5.2, install it via `pip ins
+"v0.5.2, install it via `pip install konlpy==v0.5.2`."
+msgstr ""
+
+#: ../../install.rst:20
+msgid "Ubuntu"
+msgstr "우분투"
+
+#: ../../install.rst:22
+msgid ""
+"Supported: Xenial(16.04.3 LTS), Bionic(18.04.3 LTS), Disco(19.04), "
+"Eoan(19.10)"
+msgstr ""
+
+#: ../../install.rst:24 ../../install.rst:51
+msgid "Install dependencies"
+msgstr ""
+
+#: ../../install.rst:31 ../../install.rst:57 ../../install.rst:75
+msgid "Install KoNLPy"
+ms
