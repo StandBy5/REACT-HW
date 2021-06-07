@@ -63,4 +63,28 @@ msgstr ""
 
 #: ../../install.rst:31 ../../install.rst:57 ../../install.rst:75
 msgid "Install KoNLPy"
-ms
+msgstr ""
+
+#: ../../install.rst:38 ../../install.rst:64 ../../install.rst:82
+msgid "Install MeCab (*optional*)"
+msgstr "MeCab 설치하기 (*선택사항*)"
+
+#: ../../install.rst:47
+msgid "CentOS"
+msgstr ""
+
+#: ../../install.rst:49
+msgid "Supported: CentOS 7, 8"
+msgstr ""
+
+#: ../../install.rst:73
+msgid "Mac OS"
+msgstr "맥 OS"
+
+#: ../../install.rst:90
+msgid "Windows"
+msgstr "윈도우"
+
+#: ../../install.rst:101
+msgid ""
+"Does your Python installation's \"
