@@ -97,4 +97,16 @@ msgstr ""
 "않는다면 OS에 맞게 파이썬을 재설치합니다."
 
 #: ../../install.rst:93
-msgid "How to check 
+msgid "How to check your Windows bit version"
+msgstr "윈도우 비트 수 확인하는 법"
+
+#: ../../install.rst:98
+msgid "How to check your Python bit version"
+msgstr "파이썬 비트 수 확인하는 법"
+
+#: ../../install.rst:103
+msgid ""
+"Do you have a Java of version 1.7 or above installed, that matches your "
+"OS bit version? If not, `download and install a JDK "
+"<http://www.oracle.com/technetwork/java/javase/downloads/index.html>`_. "
+"Note again,
