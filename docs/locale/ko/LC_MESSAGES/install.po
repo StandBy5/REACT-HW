@@ -140,4 +140,19 @@ msgstr ""
 "있습니다.)"
 
 #: ../../install.rst:112
-msgid "From the command prompt, install K
+msgid "From the command prompt, install KoNLPy."
+msgstr "마지막으로, 명령프롬프트에서 KoNLPy를 설치합니다."
+
+#: ../../install.rst:120
+msgid "KoNLPy's ``Mecab()`` class is not supported on Windows machines."
+msgstr "KoNLPy의 ``Mecab()`` 클래스는 윈도우에서 지원되지 않습니다."
+
+#: ../../install.rst:124
+msgid "Docker"
+msgstr "도커"
+
+#: ../../install.rst:126
+msgid ""
+"If you are familiar to docker, it is easy to install `konlpy` and "
+"`java-1.7-openjdk` on `python:3` image."
+msgstr "도커에 친숙하다
