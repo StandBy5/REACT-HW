@@ -131,4 +131,13 @@ msgid ""
 "bit version: `win32` for 32 bit and `win-amd64` for 64 bit. You may have "
 "to `upgrade your pip <https://pip.pypa.io/en/stable/installing.html"
 "#upgrade-pip>`_ in order to install the downloaded `.whl` file."
-m
+msgstr ""
+"OS의 비트 수와 일치하는 `JPype1 (>=0.5.7) "
+"<http://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype>`_ 를 설치해주세요. 32비트 OS에는 "
+"`win32`, 64비트 OS에는 `win-amd64` 파일을 사용하면 됩니다. whl 파일로 설치하는 경우에는 다음과 같이 "
+"명령프롬프트에서 `pip을 업그레이드 <https://pip.pypa.io/en/stable/installing.html"
+"#upgrade-pip>`_ 해주세요. (명령프롬프트는 Windows + r을 누른 후 실행창에서 cmd를 입력하면 띄울 수 "
+"있습니다.)"
+
+#: ../../install.rst:112
+msgid "From the command prompt, install K
