@@ -109,4 +109,16 @@ msgid ""
 "Do you have a Java of version 1.7 or above installed, that matches your "
 "OS bit version? If not, `download and install a JDK "
 "<http://www.oracle.com/technetwork/java/javase/downloads/index.html>`_. "
-"Note again,
+"Note again, that the bit versions must match."
+msgstr ""
+"OS와 비트 수가 일치하고, 버젼이 1.7 이상인 자바가 설치되어 있나요? 만일 그렇지 않다면 `JDK를 설치 "
+"<http://www.oracle.com/technetwork/java/javase/downloads/index.html>`_ "
+"합니다. 자바와 OS의 비트 수가 꼭 일치하도록 해주세요."
+
+#: ../../install.rst:104
+msgid ""
+"Set `JAVA_HOME "
+"<http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html>`_."
+msgstr ""
+"`JAVA_HOME을 설정 "
+"<http://docs.oracle.com/cd/E19182-01/820-
