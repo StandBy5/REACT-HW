@@ -121,4 +121,14 @@ msgid ""
 "<http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html>`_."
 msgstr ""
 "`JAVA_HOME을 설정 "
-"<http://docs.oracle.com/cd/E19182-01/820-
+"<http://docs.oracle.com/cd/E19182-01/820-7851/inst_cli_jdk_javahome_t/index.html>`_"
+" 합니다."
+
+#: ../../install.rst:105
+msgid ""
+"Download and install the `JPype1 (>=0.5.7) "
+"<http://www.lfd.uci.edu/~gohlke/pythonlibs/#jpype>`_ that matches your "
+"bit version: `win32` for 32 bit and `win-amd64` for 64 bit. You may have "
+"to `upgrade your pip <https://pip.pypa.io/en/stable/installing.html"
+"#upgrade-pip>`_ in order to install the downloaded `.whl` file."
+m
