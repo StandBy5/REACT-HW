@@ -155,4 +155,5 @@ msgstr "도커"
 msgid ""
 "If you are familiar to docker, it is easy to install `konlpy` and "
 "`java-1.7-openjdk` on `python:3` image."
-msgstr "도커에 친숙하다
+msgstr "도커에 친숙하다면 `python:3` 이미지에 `konlpy`와 `java-1.7-openjdk`를 설치하기가 쉽습니다."
+
