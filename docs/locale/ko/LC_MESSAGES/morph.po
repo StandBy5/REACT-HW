@@ -380,3 +380,300 @@ msgid "자동차 / N"
 msgstr ""
 
 #: ../../morph-2.csv:1
+msgid "자동차 / NNG"
+msgstr ""
+
+#: ../../morph-2.csv:1
+msgid "자동차 / Noun"
+msgstr ""
+
+#: ../../morph.rst:78
+msgid "*\"아이폰 기다리다 지쳐 애플공홈에서 언락폰질러버렸다 6+ 128기가실버ㅋ\"*"
+msgstr ""
+
+#: ../../morph.rst:80
+msgid ""
+"How do each of the analyzers deal with slang, or terms that are not "
+"included in the dictionary?"
+msgstr "각 분석기가 사전에 포함되지 않은 단어를 어떻게 해결하는지 확인해볼까요?"
+
+#: ../../morph-3.csv:1
+msgid "아이폰 / N"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "아이 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "아이폰 / NNP"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "아이폰 / Noun"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "기다리 / P"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "폰 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "기다리 / VV"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "기다리 / Verb"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "다 / E"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "다 / EC"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "지치 / P"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "다 / ECS"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "지치 / VV"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "지쳐 / VV+EC"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "지쳐 / Verb"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "어 / E"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "어 / EC"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "애플 / NNP"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "애플 / Noun"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "애플공홈 / N"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "어 / ECS"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "공 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "공홈 / Noun"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "에서 / J"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "홈 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "에서 / Josa"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "언락폰질러버렸다 / N"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "에서 / JKB"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "언락폰 / Noun"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "6+ / N"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "언락 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "질 / Verb"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "128기가실벜 / N"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "에서 / JKM"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "언 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "러 / Eomi"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "락 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "질러버렸 / VV+EC+VX+EP"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "버렸 / Verb"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "질르 / VV"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "지르 / VV"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "6 / SN"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "6 / Number"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "\\+ / SY"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "\\+ / Punctuation"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "버리 / VXV"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "버리 / VX"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "128 / SN"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "128 / Number"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "었 / EPT"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "었 / EP"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "기 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "기 / Noun"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "가 / Josa"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "6 / NR"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "실버 / NNP"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "실버 / Noun"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "\\+ / SW"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "ㅋ / UNKNOWN"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "ㅋ / KoreanParticle"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "128 / NR"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "128기가실벜 / NA"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "기가 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "실버 / NNG"
+msgstr ""
+
+#: ../../morph-3.csv:1
+msgid "ㅋ / UN"
+msgstr ""
+
+#: ../../morph.rst:88
+msgid ""
+"If you would like to run the experiments yourself, run `this code "
+"<https://github.com/konlpy/konlpy/blob/master/docs/morph.py>`_ from your "
+"local machine."
+msgstr ""
+"`이 코드를 <https://github.com/konlpy/konlpy/blob/master/docs/morph.py>`_ "
+"컴퓨터에서 실행하시면 위 비교 실험을 직접 수행하실 수 있습니다."
+
+#: ../../morph.rst:90
+msgid ""
+"Please note that these are comparisons among KoNLPy classes, and not the "
+"original distributions."
+msgstr "각 형태소 분석기 배포판이 아닌, KoNLPy 내부 모듈 간 비교임에 유의해주시기 바랍니다."
+
+#~ msgid ":py:class:`.Twitter`: 1.4870 *secs*"
+#~ msgstr ""
+
+#~ msgid ":py:class:`.Twitter`: 2.4714 *secs*"
+#~ msgstr ""
