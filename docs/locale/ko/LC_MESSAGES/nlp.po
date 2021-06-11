@@ -13,4 +13,21 @@ msgstr ""
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plai
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+# 86fd44715e5145e595ff738ac4e4f457
+#: ../../nlp.rst:2
+msgid "What is NLP?"
+msgstr ""
+
+# 8a4752db9df14ce396658401173fc286
+#: ../../nlp.rst:4
+msgid ""
+"NLP (Natural Language Processing) is a set of techniques for analyzing "
+"and extracting, and understanding meaninful information text."
+msgstr ""
+
+# ba15160cb92d40d39bd3598a3bee4a3d
+#
