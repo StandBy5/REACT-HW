@@ -48,4 +48,22 @@ msgstr ""
 
 # f00f7057ef994ed6a91098eab3f108f6
 #: ../../nlp.rst:13
-msgid "http://
+msgid "http://www.lucypark.kr/slides/2014-pyconkr/#17"
+msgstr ""
+
+# 047815dcc54b42419a39fa0a1bc82c00
+#: ../../nlp.rst:16
+msgid "Before you get started"
+msgstr ""
+
+# ae0a81ea548e4aa0bf2720644793115d
+#: ../../nlp.rst:18
+msgid "In order to use KoNLPy, you need some basic tools."
+msgstr ""
+
+# 80038dddbf2c41969d63f1cf1702a196
+#: ../../nlp.rst:20
+msgid "A text editor, or IDE for Python programming"
+msgstr ""
+
+# f8a4
