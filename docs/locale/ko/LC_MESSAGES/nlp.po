@@ -76,4 +76,9 @@ msgid ""
 msgstr ""
 
 # 16730e46982f4c0abe1cf5df5169e5af
-#: ../../nlp.rst
+#: ../../nlp.rst:26
+msgid ""
+"All the codes here (as well as the documents) are available on {{ github "
+"}}."
+msgstr ""
+
