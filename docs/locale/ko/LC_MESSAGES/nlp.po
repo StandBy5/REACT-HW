@@ -30,4 +30,22 @@ msgid ""
 msgstr ""
 
 # ba15160cb92d40d39bd3598a3bee4a3d
-#
+#: ../../nlp.rst:7
+msgid "What does KoNLPy do?"
+msgstr ""
+
+# 47c8b9e46a074fdf86604dd03238154f
+#: ../../nlp.rst:8
+msgid ""
+"KoNLPy will help you to get started with some fundamental analytic tasks "
+"with Korean text."
+msgstr ""
+
+# 5dd15782bb3a4591bc056f7076068d15
+#: ../../nlp.rst:11
+msgid "What makes KoNLPy unique?"
+msgstr ""
+
+# f00f7057ef994ed6a91098eab3f108f6
+#: ../../nlp.rst:13
+msgid "http://
