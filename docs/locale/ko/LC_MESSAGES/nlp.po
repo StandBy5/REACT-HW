@@ -66,4 +66,14 @@ msgstr ""
 msgid "A text editor, or IDE for Python programming"
 msgstr ""
 
-# f8a4
+# f8a424263a2b4e54ade3a2d1c710fca7
+#: ../../nlp.rst:22
+msgid ""
+"We assume you have some knowledge of Python and programming, but no "
+"knowledge whatsoever of data science, machine learning, or predictive "
+"modeling (or, heck, even statistics). To the extent there is a target "
+"audience, it's probably hacker types who learn best by doing."
+msgstr ""
+
+# 16730e46982f4c0abe1cf5df5169e5af
+#: ../../nlp.rst
