@@ -35,3 +35,17 @@ msgid ""
 "<https://github.com/konlpy/konlpy/labels/bug>`_."
 msgstr ""
 
+#~ msgid ""
+#~ "To see known bugs/issues, see `here "
+#~ "<https://github.com/e9t/konlpy/labels/bug>`_."
+#~ msgstr ""
+#~ "알려진 버그와 이슈를 보기 위해서 는 `이 곳 <https://github.com/e9t/konlpy/labels/bug>`_ 을 "
+#~ "방문하여 확인해주시기 바랍니다."
+
+#~ msgid "KoNLPy was tested on the below environments:"
+#~ msgstr "KoNLPy는 다음의 환경에서 사용이 확인되었습니다:"
+
+#~ msgid "Mac OS X 10.9 with Sun/Oracle 1.6.0"
+#~ msgstr ""
+
+#~ msgid "Ubuntu 12.04 wit
