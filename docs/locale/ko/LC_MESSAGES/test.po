@@ -18,3 +18,20 @@ msgstr "테스트하기"
 #: ../../test.rst:4
 msgid ""
 "KoNLPy has tests to evaulate its quality. To perform a test, use the code "
+"below."
+msgstr ""
+"KoNLPy 결과물의 정합성을 확인하기 위한 테스트가 몇 가지 있습니다. 테스트를 수행하기 위해서는 다음의 코드를 실행해주세요."
+
+#: ../../test.rst:16
+msgid ""
+"To see testing logs on KoNLPy, see `here "
+"<https://docs.google.com/spreadsheets/d/1Ii_L9NF9gSLbsJOGqsf-"
+"zfqTtyhhthmJWNC2kgUDIsU/edit?usp=sharing>`_."
+msgstr ""
+
+#: ../../test.rst:20
+msgid ""
+"To see known bugs/issues, see `here "
+"<https://github.com/konlpy/konlpy/labels/bug>`_."
+msgstr ""
+
