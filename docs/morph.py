@@ -19,4 +19,15 @@ def tagging(tagger, text):
 
 def measure_time(taggers, mult=6):
     doc = kolaw.open('constitution.txt').read()*6
- 
+    data = [['n'] + taggers]
+    for i in range(mult):
+        doclen = 10**i
+        times = [time()]
+        diffs = [doclen]
+        for tagger in taggers:
+            r = tagging(tagger, doc[:doclen])
+            times.append(time())
+            diffs.append(times[-1] - times[-2])
+            print '%s\t%s\t%s' % (tagger[:5], doclen, diffs[-1])
+            pprint(r[:5])
+        da
