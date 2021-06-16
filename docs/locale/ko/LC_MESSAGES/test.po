@@ -48,4 +48,14 @@ msgstr ""
 #~ msgid "Mac OS X 10.9 with Sun/Oracle 1.6.0"
 #~ msgstr ""
 
-#~ msgid "Ubuntu 12.04 wit
+#~ msgid "Ubuntu 12.04 with openjdk-7-jdk"
+#~ msgstr ""
+
+#~ msgid "Ubuntu 13.10 with openjdk-7-jdk"
+#~ msgstr ""
+
+#~ msgid "Ubuntu 14.04 with openjdk-7-jdk"
+#~ msgstr ""
+
+#~ msgid "Window 7 with Sun/Oracle JDK 1.7.0"
+#~ msgstr ""
