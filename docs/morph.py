@@ -52,4 +52,25 @@ def plot(result):
     import scipy as sp
 
     if not result:
-        result = sp.loa
+        result = sp.loadtxt('morph.csv', delimiter=',', skiprows=1).T
+
+    x, y = result[0], result[1:]
+
+    for i in y:
+        pl.plot(x, i)
+
+    pl.xlabel('Number of characters')
+    pl.ylabel('Time (sec)')
+    pl.xscale('log')
+    pl.grid(True)
+    pl.savefig("images/time.png")
+    pl.show()
+
+
+if __name__=='__main__':
+
+    PLOT = False
+    MULT = 6
+
+    examples = [u'아버지가방에들어가신다',  # 띄어쓰기
+            u'나는 밥을 먹는다', u'하늘을 나는 자동차', # 중의성 
