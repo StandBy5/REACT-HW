@@ -30,4 +30,26 @@ def measure_time(taggers, mult=6):
             diffs.append(times[-1] - times[-2])
             print '%s\t%s\t%s' % (tagger[:5], doclen, diffs[-1])
             pprint(r[:5])
-        da
+        data.append(diffs)
+        print
+    return data
+
+
+def measure_accuracy(taggers, text):
+    print '\n%s' % text
+    result = []
+    for tagger in taggers:
+        print tagger,
+        r = tagging(tagger, text)
+        pprint(r)
+        result.append([tagger] + map(lambda s: ' / '.join(s), r))
+    return result
+
+
+def plot(result):
+
+    from matplotlib import pylab as pl
+    import scipy as sp
+
+    if not result:
+        result = sp.loa
