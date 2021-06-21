@@ -86,4 +86,10 @@ if __name__=='__main__':
     # Accuracy
     for i, example in enumerate(examples):
         result = measure_accuracy(taggers, example)
-        result = map(lambda *ro
+        result = map(lambda *row: [i or '' for i in row], *result)
+        with open('morph-%s.csv' % i, 'w') as f:
+            csvwrite(result, f)
+
+    # Plot
+    if PLOT:
+        plot(result)
