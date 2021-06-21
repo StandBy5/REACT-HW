@@ -42,4 +42,19 @@ Time analysis [#]_
     - :py:class:`.Kkma`: 35.7163 *secs*
     - :py:class:`.Komoran`: 25.6008 *secs*
     - :py:class:`.Hannanum`: 8.8251 *secs*
-    - :py:class:`.Okt` (pre
+    - :py:class:`.Okt` (previous ``Twitter``): 2.4714 *secs*
+    - :py:class:`.Mecab`: 0.2838 *secs*
+
+    If we test among a various number of characters, all classes' execution times increase in an exponential manner.
+
+    .. image:: images/time.png
+
+
+Performance analysis
+''''''''''''''''''''
+
+The performance evaluation is replaced with result comparisons for several sample sentences.
+
+1. *"아버지가방에들어가신다"*
+
+   We can check the spacing algorithm
