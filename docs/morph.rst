@@ -33,4 +33,13 @@ Time analysis [#]_
 
     - :py:class:`.Kkma`: 5.6988 *secs*
     - :py:class:`.Komoran`: 5.4866  *secs*
-    - :py:class:`.H
+    - :py:class:`.Hannanum`: 0.6591  *secs*
+    - :py:class:`.Okt` (previous ``Twitter``): 1.4870 *secs*
+    - :py:class:`.Mecab`: 0.0007 *secs*
+
+2. *Execution time*: Time for executing the ``pos`` method for each class, with 100K characters.
+
+    - :py:class:`.Kkma`: 35.7163 *secs*
+    - :py:class:`.Komoran`: 25.6008 *secs*
+    - :py:class:`.Hannanum`: 8.8251 *secs*
+    - :py:class:`.Okt` (pre
