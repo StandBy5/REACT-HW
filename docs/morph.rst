@@ -57,4 +57,6 @@ The performance evaluation is replaced with result comparisons for several sampl
 
 1. *"아버지가방에들어가신다"*
 
-   We can check the spacing algorithm
+   We can check the spacing algorithm through this example. Desirably, an analyzer would parse this sentence to ``아버지가 + 방에 + 들어가신다`` (My father enters the room), rather than ``아버지 + 가방에 + 들어가신다`` (My father goes in the bag). :py:class:`.Hannanum` and :py:class:`.Komoran` are careful in spacing uncertain terms, and defaults the whole phrase to nouns. :py:class:`.Kkma` is more confident, but gets undesirable results. For this result, :py:class:`.Mecab` shows the best results.
+
+.. c
