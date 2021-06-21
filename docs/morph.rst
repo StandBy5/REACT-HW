@@ -24,4 +24,13 @@ For detailed usage instructions see the :doc:`api/konlpy.tag`.
 Comparison between POS tagging classes
 --------------------------------------
 
-Now, we do time and per
+Now, we do time and performation analysis for executing the ``pos`` method for each of the classes in the :doc:`api/konlpy.tag`. The experiments were carried out on a Intel i7 CPU with 4 cores, Python 2.7, and KoNLPy 0.4.1.
+
+Time analysis [#]_
+''''''''''''''''''
+
+1. *Loading time*: Class loading time, including dictionary loads.
+
+    - :py:class:`.Kkma`: 5.6988 *secs*
+    - :py:class:`.Komoran`: 5.4866  *secs*
+    - :py:class:`.H
