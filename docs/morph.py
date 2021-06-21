@@ -73,4 +73,17 @@ if __name__=='__main__':
     MULT = 6
 
     examples = [u'아버지가방에들어가신다',  # 띄어쓰기
-            u'나는 밥을 먹는다', u'하늘을 나는 자동차', # 중의성 
+            u'나는 밥을 먹는다', u'하늘을 나는 자동차', # 중의성 해소
+            u'아이폰 기다리다 지쳐 애플공홈에서 언락폰질러버렸다 6+ 128기가실버ㅋ'] # 속어
+
+    taggers = [t for t in dir(tag) if t[0].isupper()]
+
+    # Time
+    data = measure_time(taggers, mult=MULT)
+    with open('morph.csv', 'w') as f:
+        csvwrite(data, f)
+
+    # Accuracy
+    for i, example in enumerate(examples):
+        result = measure_accuracy(taggers, example)
+        result = map(lambda *ro
