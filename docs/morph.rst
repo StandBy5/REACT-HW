@@ -67,3 +67,22 @@ The performance evaluation is replaced with result comparisons for several sampl
 
    If we focus on "나는" in both sentences, we can see whether an analyzer considers the context of words. "나는" in the first sentence should be ``나/N + 는/J``, and in the second sentence ``나(-ㄹ다)/V + 는/E``. :py:class:`.Kkma` properly understands the latter "나는" as a verb, wheras the rest observe it as nouns.
 
+.. csv-table::
+    :header-rows: 1
+    :file: morph-1.csv
+
+.. csv-table::
+    :header-rows: 1
+    :file: morph-2.csv
+
+3. *"아이폰 기다리다 지쳐 애플공홈에서 언락폰질러버렸다 6+ 128기가실버ㅋ"*
+
+   How do each of the analyzers deal with slang, or terms that are not included in the dictionary?
+
+.. csv-table::
+    :header-rows: 1
+    :file: morph-3.csv
+
+.. note::
+
+    If you would like to run the experiments yourself, run `this code <ht
