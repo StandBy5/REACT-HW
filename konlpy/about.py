@@ -21,4 +21,7 @@ __author__ = 'Team KoNLPy'
 __email__ = 'konlpy@googlegroups.com'
 __url__ = 'http://konlpy.org'
 
-__summary__ = 'Python package for Korean natural language processi
+__summary__ = 'Python package for Korean natural language processing.'
+__description__ = """Korean, the 13th most widely spoken language in the world, is a beautiful, yet complex language. Myriad Korean NLP engines were built by numerous researchers, to computationally extract meaningful features from the labyrinthine text.
+
+KoNLPy is not just to create another, but to unify and build upon their shoulders, and see one step further. It is built particularly in the Python 
