@@ -27,4 +27,13 @@ def default_download_dir():
     On Windows, the default download directory is ``PYTHONHOME/lib/konlpy``,
     where *PYTHONHOME* is the directory containing Python e.g., ``C:\\Python27``.
 
-    On all other platf
+    On all other platforms, the default directory is the first of the following
+    which exists or which can be created with write permission:
+    ``/usr/share/konlpy_data``, ``/usr/local/share/konlpy_data``,
+    ``/usr/lib/konlpy_data``, ``/usr/local/lib/konlpy_data``, ``~/konlpy_data``.
+    """
+
+    konlpydir = internals.get_datadir()
+
+    # On Windows, use %APPDATA%
+    if sys.platform == 'wi
