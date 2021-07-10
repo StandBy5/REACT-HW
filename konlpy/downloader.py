@@ -86,4 +86,10 @@ class Downloader(object):
         ...
 
         """
-        if download
+        if download_dir is None:
+            download_dir = self._download_dir
+
+        if id is None:
+            raise ValueError("Please specify a package to download. To download all available packages, pass 'all' to the argument: ``konlpy.download('all')``.")
+        if id == 'all':
+            raise NotImplementedError("This function is not implemented yet. Please download each package individually until further notice.")
