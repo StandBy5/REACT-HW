@@ -36,4 +36,18 @@ def default_download_dir():
     konlpydir = internals.get_datadir()
 
     # On Windows, use %APPDATA%
-    if sys.platform == 'wi
+    if sys.platform == 'win32' and 'APPDATA' in os.environ:
+        homedir = os.environ['APPDATA']
+
+    # Otherwise, install in the user's home directory
+    else:
+        homedir = os.path.expanduser('~/')
+        if homedir == '~/':
+            raise ValueError("Could not find a default download directory")
+
+    return os.path.join(homedir, 'konlpy_data')
+
+
+class Downloader(object):
+    """
+    A class used to access the KoNLPy data
