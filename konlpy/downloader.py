@@ -50,4 +50,16 @@ def default_download_dir():
 
 class Downloader(object):
     """
-    A class used to access the KoNLPy data
+    A class used to access the KoNLPy data server, which can be used to download packages.
+    """
+
+    PACKAGE_URL = 'http://konlpy.github.io/konlpy-data/packages/%s.%s'
+    SCRIPT_URL = 'http://konlpy.github.io/konlpy-data/packages/%s.sh'
+    INDEX_URL = 'http://konlpy.github.io/konlpy-data/index.json'
+
+    INSTALLED = 'installed'
+    NOT_INSTALLED = 'not installed'
+    STALE = 'corrupt or out of date'
+
+    def __init__(self, download_dir=None):
+        self._d
