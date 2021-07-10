@@ -72,4 +72,18 @@ class Downloader(object):
         Downloading packages
         ====================
 
-        Individual packages can be downloaded by passing a single argument, the package identifier for the packag
+        Individual packages can be downloaded by passing a single argument, the package identifier for the package that should be downloaded:
+
+        >>> download('corpus/kobill')
+        [konlpy_data] Downloading package 'kobill'...
+        [konlpy_data]   Unzipping corpora/kobill.zip.
+
+        To download all packages, simply call ``download`` with the argument 'all':
+
+        >>> download('all')
+        [konlpy_data] Downloading package 'kobill'...
+        [konlpy_data]   Unzipping corpora/kobill.zip.
+        ...
+
+        """
+        if download
