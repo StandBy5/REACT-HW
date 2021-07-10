@@ -62,4 +62,14 @@ class Downloader(object):
     STALE = 'corrupt or out of date'
 
     def __init__(self, download_dir=None):
-        self._d
+        self._download_dir = download_dir
+
+    def download(self, id=None, download_dir=None):
+        """The KoNLPy data downloader.
+        With this module you can download corpora, models and other data packages
+        that can be used with KoNLPy.
+
+        Downloading packages
+        ====================
+
+        Individual packages can be downloaded by passing a single argument, the package identifier for the packag
