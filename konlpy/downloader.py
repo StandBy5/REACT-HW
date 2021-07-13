@@ -105,4 +105,17 @@ class Downloader(object):
         """
 
         if info_or_id is None:
-            rai
+            raise ValueError("Please specify a package to download.")
+        if isinstance(info_or_id, dict):
+            info = info_or_id
+        else:
+            id = info_or_id
+            try:
+                info = self.index[id]
+            except KeyError:
+                raise ValueError("Package does not exist. Please check the package name.")
+
+        if download_dir is None:
+            download_dir = self._download_dir
+
+        filepath = os.path.joi
