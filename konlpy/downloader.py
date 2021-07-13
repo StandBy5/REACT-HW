@@ -146,4 +146,16 @@ class Downloader(object):
         if info.get('install'):
             return self.NOT_INSTALLED
 
-        # Otherwise
+        # Otherwise, everything looks good
+        return self.INSTALLED
+
+    def _download_package(self, info, download_dir, force=False):
+        yield "KoNLPy downloader"
+
+        # Do we already have the current version?
+        status = self.status(info, download_dir)
+        if not force and status == self.INSTALLED:
+            yield "[konlpy_data] '%s' is already installed" % info['id']
+            return
+
+        # Check for (and remove) any old/st
