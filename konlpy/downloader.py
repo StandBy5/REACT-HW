@@ -168,4 +168,15 @@ class Downloader(object):
         # Ensure the download_dir exists
         if not os.path.exists(download_dir):
             os.mkdir(download_dir)
-        subdir = o
+        subdir = os.path.dirname(filepath)
+        if not os.path.exists(subdir):
+            os.mkdir(subdir)
+
+        # Download file. This will raise an IOError if the URL is not found.
+        url = self.PACKAGE_URL % (info['filepath'], info['ext'])
+        try:
+            yield "[konlpy_data] Downloading package '%s'..." % info['id']
+            # TODO: progress bar
+            urllib.urlretrieve(url, filepath)
+        except IOError as e:
+            yield "[k
