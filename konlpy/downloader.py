@@ -132,4 +132,18 @@ class Downloader(object):
         except OSError:
             return self.NOT_INSTALLED
 
-        if filestat.st_size != int(in
+        if filestat.st_size != int(info['size']):
+            return self.STALE
+
+        # Check if the file's checksum matches
+        checksum = hashlib.md5(open(filepath, 'rb').read()).hexdigest()
+        if checksum != info['checksum']:
+            return self.STALE
+
+        # TODO: Check if file has been properly unzipped
+
+        # TODO: Check if file has been properly installed
+        if info.get('install'):
+            return self.NOT_INSTALLED
+
+        # Otherwise
