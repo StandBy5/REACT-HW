@@ -158,4 +158,14 @@ class Downloader(object):
             yield "[konlpy_data] '%s' is already installed" % info['id']
             return
 
-        # Check for (and remove) any old/st
+        # Check for (and remove) any old/stale version
+        filepath = os.path.join(download_dir, '%s.%s' % (info['filepath'], info['ext']))
+        if os.path.exists(filepath):
+            if status == self.STALE:
+                yield "[konlpy_data] This file is stale"
+            os.remove(filepath)
+
+        # Ensure the download_dir exists
+        if not os.path.exists(download_dir):
+            os.mkdir(download_dir)
+        subdir = o
