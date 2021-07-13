@@ -93,3 +93,16 @@ class Downloader(object):
             raise ValueError("Please specify a package to download. To download all available packages, pass 'all' to the argument: ``konlpy.download('all')``.")
         if id == 'all':
             raise NotImplementedError("This function is not implemented yet. Please download each package individually until further notice.")
+        info = self._get_info(id)
+        for msg in self._download_package(info, download_dir):
+            print(msg)
+
+    def status(self, info_or_id=None, download_dir=None):
+        self.index = json.loads(urllib.urlopen(self.INDEX_URL).read().decode())
+        """
+        Return a constant describing the local status of the given package.
+        Status can be one of ``INSTALLED``, ``NOT_INSTALLED``, or ``STALE``.
+        """
+
+        if info_or_id is None:
+            rai
