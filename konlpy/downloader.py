@@ -118,4 +118,18 @@ class Downloader(object):
         if download_dir is None:
             download_dir = self._download_dir
 
-        filepath = os.path.joi
+        filepath = os.path.join(download_dir, info['filepath'], info['ext'])
+
+        return self._pkg_status(info, filepath)
+
+    def _pkg_status(self, info, filepath):
+        if not os.path.exists(filepath):
+            return self.NOT_INSTALLED
+
+        # Check if the file has the correct size
+        try:
+            filestat = os.stat(filepath)
+        except OSError:
+            return self.NOT_INSTALLED
+
+        if filestat.st_size != int(in
