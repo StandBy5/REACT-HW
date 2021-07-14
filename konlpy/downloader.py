@@ -204,3 +204,13 @@ class Downloader(object):
 
     def _unzip_file(self, filepath, ext):
         try:
+            if ext == '.zip':
+                zf = zipfile.ZipFile(filepath)
+                zf.extractall(os.path.dirname(filepath))
+                zf.close()
+            elif ext == '.tar':
+                tf = tarfile.open(filepath)
+                tf.extractall(os.path.dirname(filepath))
+                tf.close()
+        except Exception as e:
+            raise ValueError('Error reading file %r!\n%s' % (filepa
