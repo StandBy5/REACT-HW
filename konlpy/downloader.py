@@ -191,4 +191,16 @@ class Downloader(object):
 
         # If it says to install, use a shell script for installation
         if info.get('install'):
-    
+            url = self.SCRIPT_URL % info['filepath']
+            shpath = os.path.join(download_dir, '%s.sh' % info['filepath'])
+            self._exec_shell(url, shpath, download_dir)
+
+        yield "Done"
+
+    def _exec_shell(self, url, shpath, download_dir):
+        urllib.urlretrieve(url, shpath)
+        internals.chmod(shpath)
+        subprocess.call(['sudo', shpath, download_dir])
+
+    def _unzip_file(self, filepath, ext):
+        try:
