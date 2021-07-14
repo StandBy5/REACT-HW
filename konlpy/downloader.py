@@ -179,4 +179,16 @@ class Downloader(object):
             # TODO: progress bar
             urllib.urlretrieve(url, filepath)
         except IOError as e:
-            yield "[k
+            yield "[konlpy_data] Error downloading file"
+            return
+        yield "[konlpy_data] Download finished"
+
+        # If it's a zipfile, uncompress it.
+        ext = os.path.splitext(filepath)[-1]
+        if ext in ['.zip', '.tar']:
+            yield "[konlpy_data] Unzipping file %s" % filepath
+            self._unzip_file(filepath, ext)
+
+        # If it says to install, use a shell script for installation
+        if info.get('install'):
+    
