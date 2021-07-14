@@ -1,1 +1,18 @@
-@title	connecti
+@title	connection_table
+@version	v1.001
+@copyright	(C) wjlee in kaist, 1995-2010
+@author	이운재
+@date	2000.09.25
+@editor	김선배, 박상원
+
+START_TAG	iwg
+CONNECTION	(ec-ecx,ef)*(s-su-sy-sl-sf,iwg)
+CONNECTION	(ecs)*(jxc)
+CONNECTION	(ecx)*(px,iwg)
+CONNECTION	(ef)*(jcr,jxf,etm)
+CONNECTION	(ef)*(sf)
+CONNECTION	(ep)*(e)
+CONNECTION	(etm)*(s-su-sy-sl,nbn,nbs,iwg)
+CONNECTION	(etn,xsn)*(s,j-jcr-jxf-jcv,iwg)
+CONNECTION	(etn,xsn)*(xsnx)
+CONNECTION	(f)*(s,ncn,ncr,j-j
