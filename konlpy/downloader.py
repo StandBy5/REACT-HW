@@ -213,4 +213,15 @@ class Downloader(object):
                 tf.extractall(os.path.dirname(filepath))
                 tf.close()
         except Exception as e:
-            raise ValueError('Error reading file %r!\n%s' % (filepa
+            raise ValueError('Error reading file %r!\n%s' % (filepath, e))
+
+    def _get_info(self, id):
+        self.index = json.loads(urllib.urlopen(self.INDEX_URL).read().decode())
+        if self.index.get(id):
+            return self.index.get(id)
+        raise ValueError("Could not find a matching item to download")
+
+
+# Aliases
+_downloader = Downloader(default_download_dir())
+download = _downloader.download
