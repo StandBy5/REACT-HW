@@ -1,0 +1,12 @@
+@title	KIBSTAGS
+@version	v1.001
+@copyright	(C) kaist, 1995-2010
+@author	김재훈, 최기선, 김덕봉, 최병진, 한영균, 남영준, 박석문, 김진규, 김진수, 이춘택
+@date	1996.7.11
+@editor	이운재, 박상원
+
+TAG	sp		// 쉼표
+TAG	sf		// 마침표
+TAG	sl		// 여는 따옴표 및 묶음표
+TAG	sr		// 닫는 따옴표 및 묶음표
+TAG	sd		// 이
