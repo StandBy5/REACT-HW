@@ -130,4 +130,14 @@ IRR	irrh			// ㅎ 불규칙
 IRR	irrlu			// 르 불규칙
 IRR	irrle			// 러 불규칙
 IRR	chmust			// 반드시 축약
-IRR	chnot
+IRR	chnot			// 축약 없음
+IRR	chmay			// 축약 가능
+IRR	except			// 예외 (특히 모음조화)
+IRR	irrb_except		// ㅂ 불규칙 & 모음조화 예외 
+IRR	yut				// 사임 첨가
+IRR	gaet
+IRR	et
+IRR	si
+IRR	ss
+IRR	ssyut
+IRR	eu
