@@ -60,4 +60,20 @@ TAG	jxc		// 통용보조사
 TAG	jxf		// 종결보조사 
 TAG	jp		// 서술격조사 
 
-T
+TAG	ep		// 선어말어미 
+TAG	ecc		// 대등적 연결어미 
+TAG	ecs		// 종속적 연결어미 
+TAG	ecx		// 보조적 연결어미 
+TAG	etn		// 명사형 어미 
+TAG	etm		// 관형사형 어미 
+TAG	ef		// 종결어미 
+
+TAG	xp		// 접두사 
+TAG	xsnu	// 명사 파생 접미사 -- 단위 뒤
+TAG	xsnca	// 명사 파생 접미사 -- 일반명사 뒤--동작명사화
+TAG	xsncc	// 명사 파생 접미사 -- 일반명사 뒤
+TAG	xsna	// 명사 파생 접미사 -- 동작성 뒤
+TAG	xsns	// 명사 파생 접미사 -- 상태성 뒤
+TAG	xsnp	// 명사 파생 접미사 -- 인명1,3 뒤
+TAG	xsnx	// 명사 파생 접미사 -- 모든 명사 뒤
+TAG	xsvv	// 동사 파생 접미사 
