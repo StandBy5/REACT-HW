@@ -31,4 +31,33 @@ TAG	npp		// 인칭대명사
 TAG	npd		// 지시대명사 
 TAG	nnc		// 양수사 
 TAG	nno		// 서수사 
-TAG	
+TAG	nq		// 사임 추가
+
+TAG	ii		// 감탄사
+
+TAG	pvd		// 지시 동사 
+TAG	pvg		// 일반 동사 
+TAG	pad		// 지시형용사 
+TAG	paa		// 성상형용사 
+TAG	px		// 보조용언 
+
+TAG	mmd		// 지시관형사 
+TAG	mma		// 성상관형사 
+TAG	mad		// 지시부사 
+TAG	maj		// 접속부사 
+TAG	mag		// 일반부사 
+
+TAG	jcs		// 주격조사 
+TAG	jco		// 목적격조사 
+TAG	jcc		// 보격조사 
+TAG	jcm		// 관형격조사 
+TAG	jcv		// 호격조사 
+TAG	jca		// 부사격조사 
+TAG	jcj		// 접속격조사 
+TAG	jct		// 공동격조사 
+TAG	jcr		// 인용격조사 
+TAG	jxc		// 통용보조사 
+TAG	jxf		// 종결보조사 
+TAG	jp		// 서술격조사 
+
+T
