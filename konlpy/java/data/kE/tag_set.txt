@@ -93,4 +93,21 @@ TAG	xsa
 TSET	s	sp sf sl sr sd se su sy
 TSET	nq	nqpa nqpb nqpc nqq
 TSET	nqp	nqpa nqpb nqpc
-TSET	n	ncpa ncps ncn ncr nq nbu nbn n
+TSET	n	ncpa ncps ncn ncr nq nbu nbn nbs npp npd nnc nno
+TSET	nc	ncpa ncps ncn ncr
+TSET	ncp	ncpa ncps
+TSET	nb	nbu nbn nbs
+TSET	np	npp npd
+TSET	nn	nnc nno
+TSET	p	pvd pvg pad paa px
+TSET	pv	pvd pvg
+TSET	pa	pad paa
+TSET	m	mmd mma mad maj mag
+TSET	mm	mmd mma
+TSET	ma	mad maj mag
+TSET	j	jcs jco jcc jcm jcv jca jcj jct jcr jp jxc jxf
+TSET	jc	jcs jco jcc jcm jcv jca jcj jct jcr
+TSET	jx	jxc jxf
+TSET	e	ep ecc ecs ecx etn etm ef
+TSET	ec	ecc ecs ecx
+TSET	
