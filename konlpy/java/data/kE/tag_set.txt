@@ -9,4 +9,26 @@ TAG	sp		// 쉼표
 TAG	sf		// 마침표
 TAG	sl		// 여는 따옴표 및 묶음표
 TAG	sr		// 닫는 따옴표 및 묶음표
-TAG	sd		// 이
+TAG	sd		// 이음표
+TAG	se		// 줄임표
+TAG	su		// 단위 기호
+TAG	sy		// 기타 기호
+
+TAG	f		// 외국어
+
+TAG	ncpa	// 동작명사 
+TAG	ncps	// 상태명사 
+TAG	ncn		// 비서술성 명사 
+TAG	ncr		// 비서술성 직위 명사
+TAG	nqpa	// 고유명사 -- 성
+TAG	nqpb	// 고유명사 -- 이름
+TAG	nqpc	// 고유명사 -- 성 + 이름
+TAG	nqq		// 고유명사 -- 기타 - 일반
+TAG	nbu		// 단위성 의존명사 
+TAG	nbn		// 비단위성 의존명사 
+TAG	nbs		// 비단위성 의존명사 -- 하다 붙는 것
+TAG	npp		// 인칭대명사 
+TAG	npd		// 지시대명사 
+TAG	nnc		// 양수사 
+TAG	nno		// 서수사 
+TAG	
