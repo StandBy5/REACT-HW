@@ -110,4 +110,24 @@ TSET	jc	jcs jco jcc jcm jcv jca jcj jct jcr
 TSET	jx	jxc jxf
 TSET	e	ep ecc ecs ecx etn etm ef
 TSET	ec	ecc ecs ecx
-TSET	
+TSET	et	etn etm
+TSET	xsnc	xsnca xsncc
+TSET	xsn	xsnu xsnc xsna xsns xsnp xsnx
+TSET	xsv	xsvv xsva xsvn
+TSET	xsm	xsms xsmn
+TSET	xsa	xsam xsas
+TSET	xs	xsn xsv xsm xsa
+TSET	x	xp xs
+TSET	all	s f n ii p m j e x unk
+TSET	index	nc nqpc nqq unk
+TSET	indey	xsncc xsnca
+TSET	unkset	ncn nqq
+
+IRR	irrb			// ㅂ 불규칙
+IRR	irrs			// ㅅ 불규칙
+IRR	irrd			// ㄷ 불규칙
+IRR	irrh			// ㅎ 불규칙
+IRR	irrlu			// 르 불규칙
+IRR	irrle			// 러 불규칙
+IRR	chmust			// 반드시 축약
+IRR	chnot
