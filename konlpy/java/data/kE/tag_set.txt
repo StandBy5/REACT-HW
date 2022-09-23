@@ -76,4 +76,21 @@ TAG	xsna	// 명사 파생 접미사 -- 동작성 뒤
 TAG	xsns	// 명사 파생 접미사 -- 상태성 뒤
 TAG	xsnp	// 명사 파생 접미사 -- 인명1,3 뒤
 TAG	xsnx	// 명사 파생 접미사 -- 모든 명사 뒤
-TAG	xsvv	// 동사 파생 접미사 
+TAG	xsvv	// 동사 파생 접미사 -- 동사 뒤
+TAG	xsva	// 동사 파생 접미사 -- 동작명사 뒤
+TAG	xsvn	// 동사 파생 접미사 -- 일반명사 뒤
+TAG	xsms	// 형용사 파생 접미사 -- 상태명사 뒤
+TAG	xsmn	// 형용사 파생 접미사 -- 일반명사 뒤
+TAG	xsam	// 부사 파생 접미사  -- 형용사 뒤
+TAG	xsas	// 부사 파생 접미사 -- 상태명사 뒤
+TAG	iwg		// for start tag -- wjlee
+TAG	unk		// for unkown tag -- wjlee
+TAG	xsv		// 사임 추가
+TAG	xsn
+TAG	xsm
+TAG	xsa
+
+TSET	s	sp sf sl sr sd se su sy
+TSET	nq	nqpa nqpb nqpc nqq
+TSET	nqp	nqpa nqpb nqpc
+TSET	n	ncpa ncps ncn ncr nq nbu nbn n
