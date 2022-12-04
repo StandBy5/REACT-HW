@@ -10,4 +10,14 @@ import java.util.Objects;
 
 import kr.ac.kaist.swrc.jhannanum.comm.Eojeol;
 import kr.ac.kaist.swrc.jhannanum.comm.Sentence;
-import kr.ac.kaist
+import kr.ac.kaist.swrc.jhannanum.exception.ResultTypeException;
+import kr.ac.kaist.swrc.jhannanum.hannanum.Workflow;
+import kr.lucypark.jhannanum.hannanum.WorkflowFactory;
+
+public class HannanumInterface {
+    private Workflow wfMorph = null;
+    private Workflow wfNoun = null;
+    private Workflow wfPos09 = null;
+    private Workflow wfPos22 = null;
+
+    public String morphAnalyzer(S
