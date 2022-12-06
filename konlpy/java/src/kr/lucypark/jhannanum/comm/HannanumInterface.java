@@ -20,4 +20,15 @@ public class HannanumInterface {
     private Workflow wfPos09 = null;
     private Workflow wfPos22 = null;
 
-    public String morphAnalyzer(S
+    public String morphAnalyzer(String phrase) {
+        if (phrase == null || Objects.equals(phrase, "") || phrase.length() == 0) {
+            return null;
+        }
+        try {
+            if (wfMorph == null) {
+                wfMorph = WorkflowFactory.getPredefinedWorkflow(WorkflowFactory.WORKFLOW_MORPH_ANALYZER);
+                wfMorph.activateWorkflow(false);
+            }
+            wfMorph.analyze(phrase);
+            return wfMorph.getResultOfDocument();
+        } catch (Exceptio
