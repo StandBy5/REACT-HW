@@ -64,4 +64,16 @@ public class HannanumInterface {
         } catch (Exception e) {
             e.printStackTrace();
             return null;
-        } fina
+        } finally {
+            closeWorkFlow(wfMorph);
+        }
+    }
+
+    public String simplePos09(String phrase) {
+        if (phrase == null || Objects.equals(phrase, "") || phrase.length() == 0) {
+            return null;
+        }
+        try {
+            if (wfPos09 == null) {
+                wfPos09 = WorkflowFactory.getPredefinedWorkflow(WorkflowFactory.WORKFLOW_HMM_POS_TAGGER_09);
+                
