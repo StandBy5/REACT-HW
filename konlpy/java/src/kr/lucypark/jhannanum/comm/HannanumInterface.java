@@ -31,4 +31,18 @@ public class HannanumInterface {
             }
             wfMorph.analyze(phrase);
             return wfMorph.getResultOfDocument();
-        } catch (Exceptio
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            closeWorkFlow(wfMorph);
+        }
+    }
+
+    public String[] extractNoun(String phrase) throws ResultTypeException {
+        if (phrase == null || Objects.equals(phrase, "") || phrase.length() == 0) {
+            return new String[]{""};
+        }
+        try {
+            if (wfNoun == null) {
+                wfNoun = WorkflowF
