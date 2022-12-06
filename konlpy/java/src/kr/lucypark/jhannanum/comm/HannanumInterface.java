@@ -115,3 +115,17 @@ public class HannanumInterface {
         System.out.println(morphs);
 
         // Test extractNoun
+        String[] nouns = hi.extractNoun("");
+        for (String noun : nouns) {
+            System.out.println(noun);
+        }
+
+        // Test SimplePOS
+        String pos09 = hi.simplePos09(null);
+        System.out.println(pos09);
+        String pos22 = hi.simplePos22("성긴털제비꽃은 근무중이다.");
+        System.out.println(pos22);
+    }
+
+    private void closeWorkFlow(Workflow workflow) {
+        workfl
