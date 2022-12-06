@@ -99,4 +99,19 @@ public class HannanumInterface {
             }
             wfPos22.analyze(phrase);
             return wfPos22.getResultOfDocument();
-        } catch (Exception 
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        } finally {
+            closeWorkFlow(wfPos22);
+        }
+    }
+
+    public static void main(String[] args) throws Exception {
+        HannanumInterface hi = new HannanumInterface();
+
+        // Test morphAnalyzer
+        String morphs = hi.morphAnalyzer(null);
+        System.out.println(morphs);
+
+        // Test extractNoun
