@@ -45,4 +45,12 @@ public class HannanumInterface {
         }
         try {
             if (wfNoun == null) {
-                wfNoun = WorkflowF
+                wfNoun = WorkflowFactory.getPredefinedWorkflow(WorkflowFactory.WORKFLOW_NOUN_EXTRACTOR);
+                wfNoun.activateWorkflow(false);
+            }
+            wfNoun.analyze(phrase);
+            LinkedList<Sentence> resultList = wfNoun.getResultOfDocument(new Sentence(0, 0, false));
+            List<String> list = new ArrayList<>();
+            for (Sentence s : resultList) {
+                Eojeol[] eojeolArray = s.getEojeols();
+                for 
