@@ -53,4 +53,15 @@ public class HannanumInterface {
             List<String> list = new ArrayList<>();
             for (Sentence s : resultList) {
                 Eojeol[] eojeolArray = s.getEojeols();
-                for 
+                for (Eojeol anEojeolArray : eojeolArray) {
+                    if (anEojeolArray.length > 0) {
+                        String[] morphemes = anEojeolArray.getMorphemes();
+                        Collections.addAll(list, morphemes);
+                    }
+                }
+            }
+            return list.toArray(new String[list.size()]);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
+        } fina
