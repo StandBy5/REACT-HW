@@ -128,4 +128,6 @@ public class HannanumInterface {
     }
 
     private void closeWorkFlow(Workflow workflow) {
-        workfl
+        workflow.close();
+    }
+}
