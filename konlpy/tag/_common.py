@@ -7,4 +7,15 @@ import sys
 
 # For both Python 2 and Python 3 compatibility
 if sys.version_info[0] >= 3:
-    basestring = 
+    basestring = str
+
+
+def validate_phrase_inputs(phrase):
+    """validate if phrase input is provided in str format
+
+    Args:
+        phrase (str): phrase input
+    """
+    msg = "phrase input should be string, not %s" % type(phrase)
+    if not isinstance(phrase, basestring):
+        raise AssertionError(msg)
