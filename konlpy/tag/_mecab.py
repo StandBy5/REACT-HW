@@ -27,4 +27,19 @@ attrs = ['tags',        # 품사 태그
 
 
 def parse(result, allattrs=False, join=False, split_inflect=False):
-    def split(elem, join=False, split_inf
+    def split(elem, join=False, split_inflect=False) -> []:
+        if not elem: return [('', 'SY')]
+        segments = elem.split('\t', 1)
+        if len(segments) != 2:
+            return [('', 'SY')]
+        s, t = segments
+        features = t.split(',')
+
+        if split_inflect and features[4] == 'Inflect':
+            original = features[7]
+            tokens = original.split('+')
+            tokens = [token.split('/') for token in tokens]
+
+            res = []
+            for token in tokens:
+   
