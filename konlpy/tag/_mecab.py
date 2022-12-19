@@ -42,4 +42,17 @@ def parse(result, allattrs=False, join=False, split_inflect=False):
 
             res = []
             for token in tokens:
-   
+                if join:
+                    res.append(token[0] + '/' + token[1])
+                else:
+                    res.append((token[0], token[1]))
+            return res
+        tag = features[0]
+        if join:
+            return [s + '/' + tag]
+        return [(s, tag)]
+
+    if split_inflect:
+        res = []
+        for elem in result.splitlines()[:-1]:
+            morphs = split(elem, join=join, split_infle
