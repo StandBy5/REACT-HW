@@ -102,4 +102,18 @@ class Mecab():
             raise Exception('Install MeCab in order to use it: http://konlpy.org/en/latest/install/')
 
     def __setstate__(self, state):
-        """just reiniti
+        """just reinitialize."""
+
+        self.__init__(dicpath=state['dicpath'])
+
+    def __getstate__(self):
+        """store arguments."""
+
+        return {'dicpath': self.dicpath}
+
+    # TODO: check whether flattened results equal non-flattened
+    def pos(self, phrase, flatten=True, join=False, split_inflect=False):
+        """POS tagger.
+
+        :param flatten: If False, preserves eojeols.
+        
