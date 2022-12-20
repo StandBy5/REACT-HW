@@ -116,4 +116,13 @@ class Mecab():
         """POS tagger.
 
         :param flatten: If False, preserves eojeols.
-        
+        :param join: If True, returns joined sets of morph and tag.
+        :param split_inflect: If True, splits 'Inflect' type words into multiple morphs.
+        """
+        validate_phrase_inputs(phrase)
+
+        if sys.version_info[0] < 3:
+            phrase = phrase.encode('utf-8')
+            if flatten:
+                result = self.tagger.parse(phrase).decode('utf-8')
+                return parse(result, join=join, split_inflect=split_i
