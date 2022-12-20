@@ -85,4 +85,16 @@ class Mecab():
         >>> print(mecab.pos(u'자연주의 쇼핑몰은 어떤 곳인가?'))
         [('자연', 'NNG'), ('주', 'NNG'), ('의', 'JKG'), ('쇼핑몰', 'NNG'), ('은', 'JX'), ('어떤', 'MM'), ('곳', 'NNG'), ('인가', 'VCP+EF'), ('?', 'SF')]
 
-    :param dicpath: The path of the MeCab-ko d
+    :param dicpath: The path of the MeCab-ko dictionary.
+
+    .. _MeCab: https://code.google.com/p/mecab/
+    .. _Eunjeon Project: http://eunjeon.blogspot.kr/
+    """
+
+    def __init__(self, dicpath='/usr/local/lib/mecab/dic/mecab-ko-dic'):
+        self.dicpath = dicpath
+        try:
+            self.tagger = Tagger('-d %s' % dicpath)
+            self.tagset = utils.read_json('%s/data/tagset/mecab.json' % utils.installpath)
+        except RuntimeError:
+            raise Ex
