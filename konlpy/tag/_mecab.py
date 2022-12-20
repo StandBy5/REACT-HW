@@ -66,4 +66,17 @@ class Mecab():
 
     `MeCab`_, originally a Japanese morphological analyzer and POS tagger
     developed by the Graduate School of Informatics in Kyoto University,
-    was modified to MeCab-ko by the 
+    was modified to MeCab-ko by the `Eunjeon Project`_
+    to adapt to the Korean language.
+
+    In order to use MeCab-ko within KoNLPy, follow the directions in
+    :ref:`optional-installations`.
+
+    .. code-block:: python
+        :emphasize-lines: 1
+
+        >>> # MeCab installation needed
+        >>> from konlpy.tag import Mecab
+        >>> mecab = Mecab()
+        >>> print(mecab.morphs(u'영등포구청역에 있는 맛집 좀 알려주세요.'))
+        ['영등포구', '청역', '에', '
