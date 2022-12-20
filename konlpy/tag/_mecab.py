@@ -55,4 +55,15 @@ def parse(result, allattrs=False, join=False, split_inflect=False):
     if split_inflect:
         res = []
         for elem in result.splitlines()[:-1]:
-            morphs = split(elem, join=join, split_infle
+            morphs = split(elem, join=join, split_inflect=split_inflect)
+            res.extend(morphs)
+        return res
+    return [split(elem, join=join)[0] for elem in result.splitlines()[:-1]]
+
+
+class Mecab():
+    """Wrapper for MeCab-ko morphological analyzer.
+
+    `MeCab`_, originally a Japanese morphological analyzer and POS tagger
+    developed by the Graduate School of Informatics in Kyoto University,
+    was modified to MeCab-ko by the 
