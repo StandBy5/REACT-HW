@@ -125,4 +125,12 @@ class Mecab():
             phrase = phrase.encode('utf-8')
             if flatten:
                 result = self.tagger.parse(phrase).decode('utf-8')
-                return parse(result, join=join, split_inflect=split_i
+                return parse(result, join=join, split_inflect=split_inflect)
+            return [parse(self.tagger.parse(eojeol).decode('utf-8'), join=join, split_inflect=split_inflect)
+                    for eojeol in phrase.split()]
+        else:
+            if flatten:
+                result = self.tagger.parse(phrase)
+                return parse(result, join=join, split_inflect=split_inflect)
+            return [parse(self.tagger.parse(eojeol), join=join, split_inflect=split_inflect)
+                  
