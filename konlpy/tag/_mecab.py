@@ -133,4 +133,15 @@ class Mecab():
                 result = self.tagger.parse(phrase)
                 return parse(result, join=join, split_inflect=split_inflect)
             return [parse(self.tagger.parse(eojeol), join=join, split_inflect=split_inflect)
-                  
+                    for eojeol in phrase.split()]
+
+    def morphs(self, phrase):
+        """Parse phrase to morphemes."""
+
+        return [s for s, t in self.pos(phrase)]
+
+    def nouns(self, phrase):
+        """Noun extractor."""
+
+        tagged = self.pos(phrase)
+        return [s for s, t in tagged if t.startswith('N')]
