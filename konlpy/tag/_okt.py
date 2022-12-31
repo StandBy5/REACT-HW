@@ -56,4 +56,14 @@ class Okt():
         self.tagset = utils.read_json('%s/data/tagset/twitter.json' % utils.installpath)
 
     def pos(self, phrase, norm=False, stem=False, join=False):
-        """PO
+        """POS tagger.
+        In contrast to other classes in this subpackage,
+        this POS tagger doesn't have a `flatten` option,
+        but has `norm` and `stem` options.
+        Check the parameter list below.
+
+        :param norm: If True, normalize tokens.
+        :param stem: If True, stem tokens.
+        :param join: If True, returns joined sets of morph and tag.
+        """
+        validate_phrase_inputs(phrase
