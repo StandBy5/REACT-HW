@@ -66,4 +66,18 @@ class Okt():
         :param stem: If True, stem tokens.
         :param join: If True, returns joined sets of morph and tag.
         """
-        validate_phrase_inputs(phrase
+        validate_phrase_inputs(phrase)
+
+        tokens = self.jki.tokenize(
+                    phrase,
+                    jpype.java.lang.Boolean(norm),
+                    jpype.java.lang.Boolean(stem)).toArray()
+        if join:
+            return list(tokens)
+        return [tuple(t.rsplit('/', 1)) for t in tokens]
+
+    def nouns(self, phrase):
+        """Noun extractor."""
+
+        tagged = self.pos(phrase)
+        return [s 
