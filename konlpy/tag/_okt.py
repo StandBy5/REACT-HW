@@ -93,4 +93,5 @@ class Okt():
         return [p for p in self.jki.phrases(phrase).toArray()]
 
     def normalize(self, phrase):
-        text = self.jki.normaliz
+        text = self.jki.normalize(phrase)
+        return text
