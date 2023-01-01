@@ -80,4 +80,17 @@ class Okt():
         """Noun extractor."""
 
         tagged = self.pos(phrase)
-        return [s 
+        return [s for s, t in tagged if t == 'Noun']
+
+    def morphs(self, phrase, norm=False, stem=False):
+        """Parse phrase to morphemes."""
+
+        return [s for s, t in self.pos(phrase, norm=norm, stem=stem)]
+
+    def phrases(self, phrase):
+        """Phrase extractor."""
+
+        return [p for p in self.jki.phrases(phrase).toArray()]
+
+    def normalize(self, phrase):
+        text = self.jki.normaliz
