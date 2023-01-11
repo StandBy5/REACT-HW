@@ -25,4 +25,20 @@ def requirements():
             return f.read().splitlines()
 
     if sys.version_info[0] < 3:
-        return _openreq('requirements2.
+        return _openreq('requirements2.txt')
+
+    return _openreq('requirements.txt')
+
+
+about = get_about()
+setup(name='konlpy',
+      version=about['__version__'],
+      description=about['__summary__'],
+      long_description=about['__description__'],
+      url=about['__url__'],
+      project_urls={
+        'Source': 'https://github.com/konlpy/konlpy',
+      },
+      author=about['__author__'],
+      author_email=about['__email__'],
+      keywords=['Korean', 'CJ
