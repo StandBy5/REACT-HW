@@ -41,4 +41,13 @@ setup(name='konlpy',
       },
       author=about['__author__'],
       author_email=about['__email__'],
-      keywords=['Korean', 'CJ
+      keywords=['Korean', 'CJK',
+                'NLP', 'natural language processing',
+                'CL', 'computational linguistics',
+                'tagging', 'tokenizing', 'linguistics', 'text analytics'],
+      classifiers=[
+          'Intended Audience :: Developers',
+          'Intended Audience :: Education',
+          'Intended Audience :: Information Technology',
+          'Intended Audience :: Science/Research',
+     
