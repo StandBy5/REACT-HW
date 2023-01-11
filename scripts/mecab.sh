@@ -93,3 +93,103 @@ install_automake(){
             curl -LO http://ftpmirror.gnu.org/autoconf/autoconf-latest.tar.gz
             tar -zxvf autoconf-latest.tar.gz
             rm autoconf-latest.tar.gz
+
+            # configure, make, install --prefix=/usr/local
+            cd autoconf*
+            ./configure
+            make
+            $sudo make install
+
+            # erase stage dir
+            rm -rf $builddir
+
+
+            ##
+            # Automake
+            #
+            # stage directory
+            builddir=`mktemp -d` && cd $builddir
+
+            # download and extract source
+            curl -LO http://ftpmirror.gnu.org/automake/automake-1.11.tar.gz
+            tar -zxvf automake-1.11.tar.gz
+
+            # configure, make, install --prefix=/usr/local
+            cd automake-1.11
+            ./configure
+            make
+            $sudo make install
+
+            # erase stage dir
+            rm -rf $builddir
+        fi
+
+    elif [ "$os" == "Darwin" ]; then
+        if [[ $(command -v brew) == "" ]]; then
+            echo "This script require Homebrew!"
+            echo "Try https://brew.sh/"
+            exit 0
+        fi
+        brew install automake
+    fi
+}
+
+install_mecab_ko_dic(){
+    echo "Install mecab-ko-dic"
+    cd /tmp
+    curl -LO https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.1.1-20180720.tar.gz
+    tar -zxvf mecab-ko-dic-2.1.1-20180720.tar.gz
+    cd mecab-ko-dic-2.1.1-20180720
+    ./autogen.sh
+    ./configure
+    if [[ $os == "Linux" ]]; then
+        mecab-config --libs-only-L | $sudo tee /etc/ld.so.conf.d/mecab.conf  # XXX: Resolve #271, #182, #133
+        $sudo ldconfig
+    fi
+    make
+    $sudo sh -c 'echo "dicdir=/usr/local/lib/mecab/dic/mecab-ko-dic" > /usr/local/etc/mecabrc'
+    $sudo make install
+}
+
+install_mecab_python(){
+    pushd /tmp
+    if [[ ! -d "mecab-python-0.996" ]]; then
+        git clone https://bitbucket.org/eunjeon/mecab-python-0.996.git
+    fi
+    popd
+    if [[ "$os" == "Darwin" ]]; then
+        CFLAGS=-stdlib=libc++ $python -m pip install $at_user_site /tmp/mecab-python-0.996
+    else
+        # the gcc compiler has no such commandline option as -stdilb, so let's not use it. See discussion on #391.
+        $python -m pip install $at_user_site /tmp/mecab-python-0.996
+    fi
+}
+
+
+if ! hash "automake" &>/dev/null; then
+    echo "Installing automake (A dependency for mecab-ko)"
+    install_automake
+fi
+
+if hash "mecab" &>/dev/null; then
+    echo "mecab-ko is already installed"
+else
+    echo "Install mecab-ko"
+    install_mecab_ko
+fi
+
+if [[ -d $mecab_dicdir ]]; then
+    echo "mecab-ko-dic is already installed"
+else
+    echo "Install mecab-ko-dic"
+    install_mecab_ko_dic
+fi
+
+if [[ $($python -c 'import pkgutil; print(1 if pkgutil.find_loader("MeCab") else 0)') == "1" ]]; then
+    echo "mecab-python is already installed"
+else
+    echo "Install mecab-python"
+    install_mecab_python
+fi
+
+echo "Done."
