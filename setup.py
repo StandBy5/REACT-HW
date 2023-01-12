@@ -50,4 +50,11 @@ setup(name='konlpy',
           'Intended Audience :: Education',
           'Intended Audience :: Information Technology',
           'Intended Audience :: Science/Research',
-     
+          'Programming Language :: Python :: 2.7',
+          'Programming Language :: Python :: 3.6',
+          'Topic :: Scientific/Engineering',
+          'Topic :: Scientific/Engineering :: Artificial Intelligence',
+          'Topic :: Scientific/Engineering :: Information Analysis',
+          'Topic :: Text Processing',
+          'Topic :: Text Processing :: Filters',
+          'Topic :: Tex
