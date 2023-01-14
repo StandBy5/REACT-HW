@@ -57,4 +57,14 @@ setup(name='konlpy',
           'Topic :: Scientific/Engineering :: Information Analysis',
           'Topic :: Text Processing',
           'Topic :: Text Processing :: Filters',
-          'Topic :: Tex
+          'Topic :: Text Processing :: General',
+          'Topic :: Text Processing :: Linguistic',
+          'Development Status :: 4 - Beta',
+          'License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)',
+      ],
+      license=about['__license__'],
+      packages=find_packages(),
+      package_data={'konlpy': [
+          'data/corpus/*/*.txt',
+          'data/tagset/*.json',
+   
