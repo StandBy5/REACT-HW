@@ -22,4 +22,11 @@ def test_hannanum_analyze(hannanum_instance, string):
         [[[(u'\uaf43\uac00', u'ncn'), (u'\uc774', u'jp'), (u'\ub9c8', u'ef')],
           [(u'\uaf43\uac00\ub9c8', u'ncn')],
           [(u'\uaf43\uac00', u'nqq'), (u'\uc774', u'jp'), (u'\ub9c8', u'ef')],
-         
+          [(u'\uaf43\uac00\ub9c8', u'nqq')]],
+         [[(u'\ud0c0', u'pvg'), (u'\uace0', u'ecc')],
+          [(u'\ud0c0', u'pvg'), (u'\uace0', u'ecs')],
+          [(u'\ud0c0', u'pvg'), (u'\uace0', u'ecx')]],
+         [[(u'\uac15\ub0a8', u'ncn')]],
+         [[(u'\uac00', u'pvg'), (u'\uc790', u'ecc')],
+          [(u'\uac00', u'pvg'), (u'\uc790', u'ecs')],
+          [(u'\uac00', u'pvg'), (u'\uc790', u'ef')
