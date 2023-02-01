@@ -29,4 +29,14 @@ def test_hannanum_analyze(hannanum_instance, string):
          [[(u'\uac15\ub0a8', u'ncn')]],
          [[(u'\uac00', u'pvg'), (u'\uc790', u'ecc')],
           [(u'\uac00', u'pvg'), (u'\uc790', u'ecs')],
-          [(u'\uac00', u'pvg'), (u'\uc790', u'ef')
+          [(u'\uac00', u'pvg'), (u'\uc790', u'ef')],
+          [(u'\uac00', u'px'), (u'\uc790', u'ecc')],
+          [(u'\uac00', u'px'), (u'\uc790', u'ecs')],
+          [(u'\uac00', u'px'), (u'\uc790', u'ef')]],
+         [[(u'!', u'sf')]]]
+
+def test_hannanum_nouns(hannanum_instance, string):
+    assert hannanum_instance.nouns(string) ==\
+        [u'\uaf43\uac00\ub9c8', u'\uac15\ub0a8']
+
+def test_
