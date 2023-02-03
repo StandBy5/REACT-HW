@@ -52,4 +52,17 @@ def test_hannanum_morphs(hannanum_instance, string):
 def test_hannanum_pos_9(hannanum_instance, string):
     assert hannanum_instance.pos(string) ==\
         [(u'\uaf43\uac00\ub9c8', u'N'),
-     
+         (u'\ud0c0', u'P'),
+         (u'\uace0', u'E'),
+         (u'\uac15\ub0a8', u'N'),
+         (u'\uac00', u'P'),
+         (u'\uc790', u'E'),
+         (u'!', u'S')]
+
+def test_hannanum_pos_22(hannanum_instance, string):
+    assert hannanum_instance.pos(string, ntags=22) ==\
+        [(u'\uaf43\uac00\ub9c8', u'NC'),
+         (u'\ud0c0', u'PV'),
+         (u'\uace0', u'EC'),
+         (u'\uac15\ub0a8', u'NC'),
+   
