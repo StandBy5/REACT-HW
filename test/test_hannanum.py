@@ -65,4 +65,20 @@ def test_hannanum_pos_22(hannanum_instance, string):
          (u'\ud0c0', u'PV'),
          (u'\uace0', u'EC'),
          (u'\uac15\ub0a8', u'NC'),
-   
+         (u'\uac00', u'PX'),
+         (u'\uc790', u'EC'),
+         (u'!', u'SF')]
+
+def test_hannanum_pos_join(hannanum_instance, string):
+    assert hannanum_instance.pos(string, join=True) ==\
+        [u'\uaf43\uac00\ub9c8/N',
+         u'\ud0c0/P',
+         u'\uace0/E',
+         u'\uac15\ub0a8/N',
+         u'\uac00/P',
+         u'\uc790/E',
+         u'!/S']
+
+def test_hannanum_typechecking(hannanum_instance):
+    try:
+        hannanum_instance.pos([])
