@@ -82,3 +82,5 @@ def test_hannanum_pos_join(hannanum_instance, string):
 def test_hannanum_typechecking(hannanum_instance):
     try:
         hannanum_instance.pos([])
+    except AssertionError:
+        pass
