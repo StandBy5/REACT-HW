@@ -13,4 +13,14 @@ def test_utils_pprint(capsys): # Fixture `capsys` allows stdout/stderr captures
 
 def test_utils_concordance():
     from konlpy.corpus import kolaw
-    from konlpy.utils  import c
+    from konlpy.utils  import concordance
+    doc = kolaw.open('constitution.txt').read()
+    ccd = concordance(u'대한민국', doc, show=True)
+    assert ccd == [0, 9, 98, 100, 110, 126, 133, 147, 787, 1836, 3620]
+
+def test_utils_concordance_show(capsys):
+    from konlpy.corpus import kolaw
+    from konlpy.utils  import concordance
+    doc = kolaw.open('constitution.txt').read()
+    ccd = concordance(u'대한민국', doc, show=True)
+    out, err =
